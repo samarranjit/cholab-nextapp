@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <>
       {/* Desktop Navbar - Hidden on mobile, shown on larger screens */}
-      <div className="bg-[#007C92] hidden lg:flex items-center justify-between py-4 h-[70px] shadow-md px-7 ">
+      <div className="bg-[#007C92] hidden lg:flex items-center justify-between py-4 h-[70px] shadow-md px-7 z-3">
         {/* Logo Section */}
         <div className="flex items-center h-full space-x-5">
           <Link

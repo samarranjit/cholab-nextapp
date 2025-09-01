@@ -74,7 +74,7 @@ export default function PublicationCard({
     });
   };
 
-  console.log(doi);
+  // console.log(doi);
 
   return (
     <div className="group h-full">

@@ -16,7 +16,7 @@ function Research() {
   // const bgImg =
   //   "https://res.cloudinary.com/cholab/image/upload/v1736473392/BGRESEARCH_gdpudo.jpg";
   // const { researchData }: { researchData: ResearchCardData[] } =    useResearchContext();
-  const { ResearchPosts: researchData, isLoading } = useResearchPosts();
+  const { ResearchPosts: researchData, isLoading, _error } = useResearchPosts();
   // console.log("Error:", _error ?? "No error");
   return (
     <div>
@@ -25,11 +25,11 @@ function Research() {
         {isLoading ? (
           <Loader />
         ) : (
-          <div className="h-[90vh] lg:h-[90vh] relative overflow-hidden top-[-70px] ">
+          <div className="h-[90vh] lg:h-[90vh] relative overflow-hidden ">
             {/* Animated Background - Responsive */}
-            <div className="absolute top-0 inset-0 z-[-1] ">
+            <div className="absolute inset-0 z-[-1] ">
               <div
-                className="w-[300vw] h-[100vh] fixed"
+                className="w-[300vw] h-[90vh] flex"
                 style={{
                   animation: "slideAcrossRepeat 120s linear infinite",
                 }}
