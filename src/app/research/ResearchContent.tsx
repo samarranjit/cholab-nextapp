@@ -16,7 +16,7 @@ function Research() {
   // const bgImg =
   //   "https://res.cloudinary.com/cholab/image/upload/v1736473392/BGRESEARCH_gdpudo.jpg";
   // const { researchData }: { researchData: ResearchCardData[] } =    useResearchContext();
-  const { ResearchPosts: researchData, isLoading, _error } = useResearchPosts();
+  const { ResearchPosts: researchData, isLoading } = useResearchPosts();
   // console.log("Error:", _error ?? "No error");
   return (
     <div>
