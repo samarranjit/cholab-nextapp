@@ -1,5 +1,3 @@
-"use client";
-
 import Navbar from "../../components/Navbar";
 import Intro from "./Intro";
 import Research from "./Research";
@@ -20,7 +18,6 @@ export default function Home() {
       <News />
       <EachSectionConnection />
       <LinkedinPosts />
-
       <Footer />
     </>
   );
