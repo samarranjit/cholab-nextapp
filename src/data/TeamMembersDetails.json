@@ -10,24 +10,8 @@
     "about": "",
     "order": 1,
     "awards": [],
-    "publications": [
-      {
-        "authors": [
-          "Cho E.",
-          "John Doe"
-        ],
-        "title": "Improved Flood Prediction Using Land Surface Modeling",
-        "link": "https://example.com/publication1",
-        "journal": "Journal of Hydrology",
-        "date": "2025-01-01"
-      }
-    ],
-    "activities": [
-      {
-        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
-        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
-      }
-    ]
+    "publications": [],
+    "activities": []
   },
   {
     "_id": "68ae7e1dcb630c29e1ab71c7",
