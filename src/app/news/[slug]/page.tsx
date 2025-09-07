@@ -1,15 +1,12 @@
 import { NewsPost } from "@/utils/getNewsStoryMdx";
 
-// import Link from "next/link";
-// import { ArrowLeft } from "lucide-react";
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
 
-export default async function NewsPostPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function NewsPostPage({ params }: PageProps) {
   const { slug } = await params;
-  const { default: Project, frontmatter: meta }: NewsPost = await import(
+  const { default: Project }: NewsPost = await import(
     `@/data/NewsStories/${slug}.mdx`
   );
   const Content = await Promise.resolve(Project);

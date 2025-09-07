@@ -22,8 +22,11 @@ export function useTeamMembersDetails() {
                     img: member.img,
                     order: member.order,
                     about: member.about ?? "",
-                    contributions: member.contributions ?? [],
+                    awards: member.awards ?? [],
                     publications: member.publications ?? [],
+                    ConferencePapers: member.ConferencePapers ?? [],
+                    activities: member.activities ?? []
+                    
                 }))
             );
             setLoading(false);

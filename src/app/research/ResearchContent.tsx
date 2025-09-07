@@ -160,7 +160,7 @@ function Research() {
         </div>
       </div>
 
-      <div className="inline-block h-[full] p-4 py-9 md:p-[5rem] research-div bg-white pb-0 md:pb-[0rem]">
+      <div className="flex flex-col h-[full] p-4 py-9 md:p-[5rem] research-div bg-white pb-0 md:pb-[0rem] max-w-[1904px] mx-auto ">
         <h2 className="text-tertiary text-lg font-semibold md:text-2xl md:font-normal">
           Our Research Projects:
         </h2>

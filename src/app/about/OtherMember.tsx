@@ -5,10 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import MemberCard from "../../components/MemberCard";
 import Loader from "../../components/Loader";
-import { Button } from "antd";
 import { TeamMember } from "@/types";
 import { useTeamMembersDetails } from "@/hooks/useTeamMembersDetails";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaLinkedin } from "react-icons/fa";
 import dynamic from "next/dynamic";
 
 const Modal = dynamic(() => import("antd").then((m) => m.Modal), {
@@ -21,6 +20,7 @@ function OtherMember() {
   const [activeSection, setActiveSection] = useState("about");
 
   const showModal = () => {
+    setActiveSection("about");
     setIsModalOpen(true);
   };
 
@@ -90,20 +90,17 @@ function OtherMember() {
                   {/* Social Links with better styling */}
                   {selectedMember.linkedin && (
                     <div className="pt-2">
-                      <Button
-                        type="default"
-                        size="middle"
-                        className="bg-secondary text-primary hover:bg-secondary/90 transition-colors px-6 py-2 h-auto font-semibold rounded-lg shadow-sm"
+                      <Link
+                        href={selectedMember.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex  items-center gap-2 text-primary"
                       >
-                        <Link
-                          href={selectedMember.linkedin}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2"
-                        >
+                        <button className="bg-secondary text-primary hover:bg-white/90 hover:text-secondary/80 transition-colors px-5 py-3 gap-3 h-auto font-semibold rounded-lg shadow-sm cursor-pointer flex">
+                          <FaLinkedin className="w-5 h-5 group-hover/icon:animate-bounce" />
                           LinkedIn
-                        </Link>
-                      </Button>
+                        </button>
+                      </Link>
                     </div>
                   )}
                 </div>
@@ -119,26 +116,49 @@ function OtherMember() {
                     label: `About ${selectedMember.name.split(" ")[0]}`,
                     icon: "👤",
                   },
-                  { key: "publications", label: "Publications", icon: "📄" },
-                  { key: "contributions", label: "Contributions", icon: "⚡" },
-                ].map((tab) => (
-                  <button
-                    key={tab.key}
-                    className={`
+                  {
+                    key: "publications",
+                    label: "Publications and Papers",
+                    icon: "📄",
+                  },
+                  {
+                    key: "awards",
+                    label: "Awards and Honors",
+                    icon: "🏆",
+                  },
+                ].map((tab) => {
+                  // Only show tab if the corresponding property exists and is not empty
+                  if (
+                    (tab.key === "about" && !selectedMember.about) ||
+                    (tab.key === "publications" &&
+                      (!selectedMember.publications ||
+                        selectedMember.publications.length === 0)) ||
+                    (tab.key === "awards" &&
+                      (!selectedMember.awards ||
+                        selectedMember.awards.length === 0))
+                  ) {
+                    return null;
+                  }
+                  return (
+                    <button
+                      key={tab.key}
+                      className={`
                 px-6 py-3 font-semibold text-sm md:text-base whitespace-nowrap
-                border-b-2 transition-all duration-200 hover:bg-slate-50
+                border-b-2 transition-all duration-200 hover:bg-slate-50 cursor-pointer
+                
                 ${
                   activeSection === tab.key
                     ? "border-tertiary text-slate-800 bg-slate-50"
                     : "border-transparent text-slate-600 hover:text-slate-800"
                 }
               `}
-                    onClick={() => setActiveSection(tab.key)}
-                  >
-                    <span className="mr-2">{tab.icon}</span>
-                    <span className="hidden md:inline">{tab.label}</span>
-                  </button>
-                ))}
+                      onClick={() => setActiveSection(tab.key)}
+                    >
+                      <span className="mr-2">{tab.icon}</span>
+                      <span className="hidden md:inline">{tab.label}</span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
@@ -152,11 +172,47 @@ function OtherMember() {
                       {" "}
                       About {selectedMember.name.split(" ")[0]} :
                     </p>
-                    {selectedMember?.about ? (
+                    {selectedMember?.about ||
+                    (selectedMember?.activities?.length ?? 0) > 0 ? (
                       <>
                         <p className="text-slate-700 leading-relaxed text-base md:text-lg mb-0">
                           {selectedMember.about}
                         </p>
+                        {(selectedMember?.activities?.length ?? 0) > 0 && (
+                          <div className="activities space-y-0">
+                            <p className="font-semibold">Activities:</p>
+
+                            <div className="space-y-4">
+                              {selectedMember?.activities?.map(
+                                (activity, index) => (
+                                  <div
+                                    key={`${selectedMember.id}-activity-${index}`}
+                                    className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
+                                  >
+                                    <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
+                                    <div className="flex-1 flex flex-col justify-center">
+                                      <p className="text-slate-700 m-0 text-sm md:text-base">
+                                        {activity?.desc ||
+                                          "No publication details."}
+                                      </p>
+                                      {activity?.link && (
+                                        <Link
+                                          href={activity.link}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium mt-1"
+                                        >
+                                          View Details{" "}
+                                          <FaExternalLinkAlt className="w-3 h-3" />
+                                        </Link>
+                                      )}
+                                    </div>
+                                  </div>
+                                )
+                              )}
+                            </div>
+                          </div>
+                        )}
                       </>
                     ) : (
                       <p className="text-slate-500 italic text-center py-8">
@@ -171,103 +227,145 @@ function OtherMember() {
               {activeSection === "publications" && (
                 <div className="max-h-[50vh] md:h-[40vh] overflow-y-auto">
                   <p className="text-slate-700 leading-relaxed text-lg py-2  md:text-lg mb-0 font-semibold text-center md:hidden">
-                    Publications :
+                    Publications and Papers:
                   </p>
-                  {selectedMember?.publications &&
-                  selectedMember.publications?.length > 0 ? (
+                  {selectedMember &&
+                  ((selectedMember?.publications?.length ?? 0) > 0 ||
+                    (selectedMember?.ConferencePapers?.length ?? 0) > 0) ? (
                     <div className="space-y-4">
-                      {selectedMember?.publications.map(
-                        (publication, index) => (
-                          <div
-                            key={`${selectedMember.id}-publication-${index}`}
-                            className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
-                          >
-                            <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
-                            <div className="flex-1">
-                              <p className="text-slate-700 leading-relaxed text-sm md:text-base">
-                                {publication?.authors?.map((author, i) => {
-                                  const citationFormat = `${
-                                    selectedMember.name.split(" ")[
-                                      selectedMember.name.split(" ").length - 1
-                                    ]
-                                  } ${selectedMember.name.split(" ")[0][0]}.`;
-                                  if (author === citationFormat) {
-                                    return (
-                                      <span
-                                        key={i}
-                                        className="font-semibold"
-                                      >{`${author}, `}</span>
-                                    );
-                                  }
-                                  return <span key={i}>{`${author}, `}</span>;
-                                })}
-                                <span className="italic"></span>
-                                {publication?.title ||
-                                  "No publication details."}
-                              </p>
-                              {publication?.link && (
-                                <Link
-                                  href={publication.link}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm mt-2 font-medium"
-                                >
-                                  View Publication{" "}
-                                  <FaExternalLinkAlt className="w-3 h-3" />
-                                </Link>
-                              )}
-                            </div>
-                          </div>
-                        )
+                      {/* Publications */}
+                      {(selectedMember?.publications?.length ?? 0) > 0 && (
+                        <div className="space-y-4">
+                          <p className="font-semibold">Published Papers:</p>
+                          {selectedMember?.publications?.map(
+                            (publication, index) => (
+                              <div
+                                key={`${selectedMember.id}-publication-${index}`}
+                                className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
+                              >
+                                <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
+                                <div className="flex-1">
+                                  <p className="text-slate-700 leading-relaxed text-sm md:text-base">
+                                    {publication?.authors?.map((author, i) => {
+                                      const citationFormat = `${
+                                        selectedMember.name.split(" ")[
+                                          selectedMember.name.split(" ")
+                                            .length - 1
+                                        ]
+                                      } ${
+                                        selectedMember.name.split(" ")[0][0]
+                                      }.`;
+                                      if (author === citationFormat) {
+                                        return (
+                                          <span
+                                            key={i}
+                                            className="font-semibold"
+                                          >{`${author}, `}</span>
+                                        );
+                                      }
+                                      return (
+                                        <span key={i}>{`${author}, `}</span>
+                                      );
+                                    })}
+                                    <span className="italic"></span>
+                                    {publication?.title ||
+                                      "No publication details."}
+                                  </p>
+                                  {publication?.link && (
+                                    <Link
+                                      href={publication.link}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm mt-2 font-medium"
+                                    >
+                                      View Publication{" "}
+                                      <FaExternalLinkAlt className="w-3 h-3" />
+                                    </Link>
+                                  )}
+                                </div>
+                              </div>
+                            )
+                          )}
+                        </div>
+                      )}
+                      {/* Conference Papers */}
+                      {(selectedMember?.ConferencePapers?.length ?? 0) > 0 && (
+                        <div className="space-y-4">
+                          <p className="font-semibold">Conference Papers:</p>
+                          {selectedMember?.ConferencePapers?.map(
+                            (paper, index) => (
+                              <div
+                                key={`${selectedMember.id}-ConferencePaper-${index}`}
+                                className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
+                              >
+                                <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
+                                <div className="flex-1">
+                                  <p className="text-slate-700 leading-relaxed text-sm md:text-base">
+                                    <span className="italic"></span>
+                                    {paper?.desc || "No publication details."}
+                                  </p>
+                                  {paper?.link && (
+                                    <Link
+                                      href={paper.link}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm mt-2 font-medium"
+                                    >
+                                      View{" "}
+                                      <FaExternalLinkAlt className="w-3 h-3" />
+                                    </Link>
+                                  )}
+                                </div>
+                              </div>
+                            )
+                          )}
+                        </div>
                       )}
                     </div>
                   ) : (
                     <p className="text-slate-500 italic text-center py-8">
-                      No publications available.
+                      No Publications or Conference Papers listed.
                     </p>
                   )}
                 </div>
               )}
 
-              {/* Contributions Section */}
-              {activeSection === "contributions" && (
+              {/* Awards and Honors Section */}
+              {activeSection === "awards" && (
                 <div className="max-h-[50vh] md:h-[40vh] overflow-y-scroll">
                   <p className="text-slate-700 leading-relaxed text-lg py-2  md:text-lg mb-0 font-semibold text-center md:hidden">
-                    Contributions :
+                    Awards and Honors:
                   </p>
-                  {selectedMember?.contributions?.length > 0 ? (
+                  {selectedMember?.awards?.length > 0 ? (
                     <div className="space-y-4">
-                      {selectedMember.contributions.map(
-                        (contribution, index) => (
-                          <div
-                            key={`${selectedMember.id}-contribution-${index}`}
-                            className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
-                          >
-                            <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
-                            <div className="flex-1">
-                              <p className="text-slate-700 leading-relaxed text-sm md:text-base">
-                                {contribution?.desc ||
-                                  "No contribution details."}
-                              </p>
-                              {contribution?.link && (
-                                <Link
-                                  href={contribution.link}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm mt-2 font-medium"
-                                >
-                                  View Details{" "}
-                                  <FaExternalLinkAlt className="w-3 h-3" />
-                                </Link>
-                              )}
-                            </div>
+                      {selectedMember.awards.map((award, index) => (
+                        <div
+                          key={`${selectedMember.id}-awards-${index}`}
+                          className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
+                        >
+                          <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
+                          <div className="flex-1">
+                            <p className="text-slate-700 leading-relaxed text-sm md:text-base">
+                              {award?.desc || "No award details."}
+                            </p>
+                            {award?.link && (
+                              <Link
+                                href={award.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm mt-2 font-medium"
+                              >
+                                View Details{" "}
+                                <FaExternalLinkAlt className="w-3 h-3" />
+                              </Link>
+                            )}
                           </div>
-                        )
-                      )}
+                        </div>
+                      ))}
                     </div>
                   ) : (
                     <p className="text-slate-500 italic text-center py-8">
-                      No contributions listed.
+                      No Awards and Honors listed.
                     </p>
                   )}
                 </div>

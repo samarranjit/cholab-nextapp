@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import { getNewsPostMeta } from "@/utils/getNewsStoryMdx";
 import Link from "next/link";
-import { BookOpen, ExternalLink } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import FooterSection from "@/components/Footer";
 export default async function Blogs() {
   const Posts = getNewsPostMeta();

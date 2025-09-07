@@ -2,6 +2,7 @@
 import { Metadata } from "next";
 import { Suspense } from "react";
 import OpportunitiesContent from "./OpportunitiesContent";
+import Loader from "@/components/Loader";
 
 // Metadata for SEO
 export const metadata: Metadata = {
@@ -53,12 +54,13 @@ export const metadata: Metadata = {
 
 function LoadingFallback() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-        <p>Loading opportunities...</p>
-      </div>
-    </div>
+    // <div className="min-h-screen flex items-center justify-center">
+    //   <div className="text-center">
+    //     <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+    //     <p>Loading opportunities...</p>
+    //   </div>
+    // </div>
+    <Loader />
   );
 }
 

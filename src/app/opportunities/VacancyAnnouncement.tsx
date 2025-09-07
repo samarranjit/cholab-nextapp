@@ -44,21 +44,6 @@ const VacancyAnnouncement: React.FC<VacancyAnnouncementProps> = (props) => {
             </div>
           ) : null}
         </div>
-
-        {/* Commented out iframe - keeping for reference
-                <iframe
-                    title='googleForm'
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSfQrUXr6XuXEI8NLJYg4gU6UBsqndHmBcFtmYGsi_VxD5_mzw/viewform?embedded=true"
-                    frameBorder="0"
-                    marginHeight={0}
-                    marginWidth={0}
-                    height="100vh"
-                    className="w-full h-fit overflow-scroll"
-                    style={{ minHeight: "50vh", flex: "1", scrollbarWidth: "none" }}
-                >
-                    Loading…
-                </iframe>
-                */}
       </div>
     </div>
   );

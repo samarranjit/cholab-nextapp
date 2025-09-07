@@ -76,7 +76,7 @@ export default function ResearchArticle({ id }: ResearchArticleProps) {
                       <img
                         src={research.mainImage || "/placeholder.svg"}
                         alt={research.title || "Research project"}
-                        className="w-full max-w-3xl object-cover rounded-xl shadow-lg"
+                        className="w-full max-w-3xl object-cover rounded-xl shadow-xs"
                       />
                     )}
                   </div>

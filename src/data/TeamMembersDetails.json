@@ -7,13 +7,9 @@
     "email": "saemrnt@gmail.com",
     "linkedin": "https://www.linkedin.com/in/saemrnt/",
     "img": "/images/team/EunsaemCho.png",
+    "about": "",
     "order": 1,
-    "contributions": [
-      {
-        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
-        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
-      }
-    ],
+    "awards": [],
     "publications": [
       {
         "authors": [
@@ -25,12 +21,18 @@
         "journal": "Journal of Hydrology",
         "date": "2025-01-01"
       }
+    ],
+    "activities": [
+      {
+        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
+        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
+      }
     ]
   },
   {
     "_id": "68ae7e1dcb630c29e1ab71c7",
     "name": "Harisankar Manoj",
-    "position": "Ph.D. Student",
+    "position": "Graduate Student (Ph.D.)",
     "desc": "Investigating land–climate interactions using remote sensing of snow and floods",
     "email": "harimanoj@txstate.edu",
     "linkedin": "",
@@ -61,7 +63,8 @@
     "linkedin": "https://www.linkedin.com/in/annelise-holguin/",
     "img": "/images/team/AnneliseHolguin.png",
     "order": 4,
-    "contributions": [
+    "about": "",
+    "activities": [
       {
         "desc": "Participated and Presented at the TXST Stem Conference 2025",
         "link": "/news/67ed9d031f076501e8dc1d11"
@@ -78,7 +81,10 @@
     "linkedin": "https://www.linkedin.com/in/farhaan-cooverji-a19558213/",
     "img": "/images/team/FarhaanCooverji.png",
     "order": 5,
-    "contributions": [
+    "about": "",
+    "awards": [],
+    "publications": [],
+    "activities": [
       {
         "desc": "Attended and Presented at the Eastern Snow Conference 2025",
         "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
@@ -87,8 +93,7 @@
         "desc": "Participated and Presented at the TXST Stem Conference 2025",
         "link": "/news/67ed9d031f076501e8dc1d11"
       }
-    ],
-    "publications": []
+    ]
   },
   {
     "id": "6741c5593202e8307dff9f84",
@@ -99,7 +104,8 @@
     "linkedin": "https://www.linkedin.com/in/jipeng-liu-91b57b327",
     "img": "/images/team/JipengLiu.png",
     "order": 6,
-    "contributions": [
+    "about": "",
+    "activities": [
       {
         "desc": "Contributed to DOE Funded Summer Camp 2025",
         "link": "/news/68aa4f6f2632157eef3f538f"
@@ -124,7 +130,7 @@
     "linkedin": "",
     "img": "/images/team/HimmatBasnet.png",
     "order": 7,
-    "contributions": [
+    "activities": [
       {
         "desc": "Contributed to DOE Funded Summer Camp 2025",
         "link": "/news/68aa4f6f2632157eef3f538f"
@@ -134,6 +140,7 @@
         "link": "/news/67ed9d031f076501e8dc1d11"
       }
     ],
+    "about": "",
     "publications": []
   },
   {
@@ -145,7 +152,7 @@
     "linkedin": "https://www.linkedin.com/in/md-shah-mominul-islam-1104010/",
     "img": "/images/team/Moomin.png",
     "order": 8,
-    "contributions": [
+    "activities": [
       {
         "desc": "Participated and Presented at the TXST Stem Conference 2025",
         "link": "/news/67ed9d031f076501e8dc1d11"
@@ -161,14 +168,38 @@
     "email": "owr15@txstate.edu",
     "linkedin": "https://www.linkedin.com/in/samarranjit/",
     "img": "/images/team/SamarRanjit.png",
+    "about": "Samar Ranjit is an undergraduate student at Texas State University with a strong interest in data science, remote sensing, and the ways technology can be applied to environmental research. He is particularly drawn to how geospatial tools and advanced analytics can be used to study natural systems and address issues such as food security and climate resilience. At the Cho Lab, his work centers on analyzing crop yield dynamics, where he studies spatial patterns, detects yield breakpoints, and evaluates edge effects across agricultural fields to better understand yield stability over time. Beyond this research, Samar is actively developing his knowledge in artificial intelligence and machine learning, fields he sees as offering vast opportunities for solving complex, real-world problems. He approaches his academic and professional journey as one of continuous learning, always looking to build new skills and improve as a researcher. In the long term, his goal is to integrate computer science and Earth sciences, creating innovative tools and approaches that can advance sustainable agriculture and contribute to broader environmental solutions.",
     "order": 10,
-    "contributions": [
+    "awards": [
       {
-        "desc": "Participated and Presented at the TXST Stem Conference 2025",
+        "desc": "Sample award",
+        "link": ""
+      }
+    ],
+    "publications": [
+      {
+        "authors": [
+          "Ranjit S.",
+          "Cho E."
+        ],
+        "title": "Analyzing Crop Yield Stability Using Remote Sensing and Machine Learning",
+        "link": "https://example.com/publication2",
+        "journal": "Agricultural Systems",
+        "date": "2025-06-15"
+      }
+    ],
+    "activities": [
+      {
+        "desc": "Participated in the TXST Stem Conference 2025",
         "link": "/news/67ed9d031f076501e8dc1d11"
       }
     ],
-    "publications": []
+    "ConferencePapers": [
+      {
+        "desc": "Presented research at the Eastern Snow Conference 2025",
+        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
+      }
+    ]
   },
   {
     "_id": "687283c539fe8fb737d3a5e8",
@@ -179,6 +210,7 @@
     "linkedin": "https://www.linkedin.com/in/hrishant-sh/",
     "img": "/images/team/HrishantSharma.png",
     "order": 11,
+    "about": "",
     "publications": []
   },
   {
@@ -190,6 +222,7 @@
     "linkedin": " https://www.linkedin.com/in/samrakshyan-adhikari-625473269/",
     "img": "/images/team/SamrakshyanAdhikari.png",
     "order": 12,
+    "about": "",
     "publications": []
   }
 ]

@@ -1,6 +1,4 @@
 // import { NewsItem } from "@/types";
-import { NewsPost } from "@/utils/getNewsStoryMdx";
-import NewsCard from "../../components/NewsCard";
 // import { useNewsPosts } from "@/hooks/useNewsPosts";
 import { getNewsPostMeta } from "@/utils/getNewsStoryMdx";
 import { BookOpen } from "lucide-react";

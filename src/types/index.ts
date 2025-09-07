@@ -12,7 +12,16 @@ export interface Member {
   isActive: boolean;
 
 }
-export interface Contribution {
+export interface Award {
+  desc?: string;
+  link?: string;
+}
+export interface Activity {
+  desc?: string;
+  link?: string;
+}
+
+export interface ConferencePaper {
   desc?: string;
   link?: string;
 }
@@ -34,9 +43,11 @@ export interface TeamMember {
   linkedin?: string;
   email?: string;
   order: number;
-  contributions: Contribution[]; // always an array, can be empty
+  awards: Award[]; // always an array, can be empty
   about?: string;
-  publications?: MemberPublication[]
+  publications?: MemberPublication[];
+  ConferencePapers?: ConferencePaper[];
+  activities?: Activity[];
 }
 
 export interface AlumniMember{
