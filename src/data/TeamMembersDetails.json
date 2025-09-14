@@ -7,11 +7,80 @@
     "email": "saemrnt@gmail.com",
     "linkedin": "https://www.linkedin.com/in/saemrnt/",
     "img": "/images/team/EunsaemCho.png",
-    "about": "",
+    "about": "Dr. Eunsaem Cho is a hydrologist whose research advances water resources management, hydroclimate extreme prediction, and resilient infrastructure design in a changing climate. Currently, his work focuses on understanding the influence of groundwater on snowmelt-driven floods through retrospective simulations with the Noah-MP land surface model in NASA’s Land Information System and GRACE/GRACE-FO data assimilation. He is currently a Postdoctoral Associate at the Hydrological Sciences Laboratory, NASA Goddard Space Flight Center, and at the Earth System Science Interdisciplinary Center, University of Maryland. Previously, he was a Postdoctoral Associate at Florida State University (2022–2024), focusing on compound flood risk assessment, and a Research Professor at Korea University (2020–2022), studying urban hydrology.",
     "order": 1,
-    "awards": [],
-    "publications": [],
-    "activities": []
+    "awards": [
+      {
+        "desc": "*People’s Choice Award* (2023, Five Minute Research Postdoc Competition, Florida State University) "
+      },
+      {
+        "desc": "*Excellent Paper Award* (2021, 2020, 2016, Korean Wetlands Society Conference) "
+      },
+      {
+        "desc": "*Excellent Paper Award* (2020, Korea Water Resources Association Conference) "
+      },
+      {
+        "desc": "*Excellent Paper Award* (2019, 2016, Korean Society of Hazard Mitigation Conference) "
+      },
+      {
+        "desc": "*Best Paper Award* (2018, Brain Korea 21 Plus Projects) "
+      },
+      {
+        "desc": "*Achievement Award* (2018, Korea University Graduate School) "
+      },
+      {
+        "desc": "*Best Oral Presentation* (2018, 4th International Conference on Water Resource and Environment). "
+      }
+    ],
+    "publications": [
+      {
+        "desc": "*Eunsaem Cho*, Ebrahim Ahmadisharaf, Gabriele Villarini, Amir AghaKouchak (2025). Historical changes in overtopping probability of dams in the United States, *Nature Communication*, 16(1), 6693.",
+        "link": "https://www.nature.com/articles/s41467-025-59536-1"
+      },
+      {
+        "desc": "*Eunsaem Cho*, Ebrahim Ahmadisharaf, Amin Ahmadisharaf, Reza Nematirad, Amir AghaKouchak (2024). Unraveling the Relationships between Trend of Dam Inflows, Hydrometeorological Variables and Vegetation in West and Southwest United States. *Journal of Hydrometeorology*, 25(12), 1793-1808.",
+        "link": "https://doi.org/10.1175/JHM-D-23-0217.1"
+      },
+      {
+        "desc": "*Eunsaem Cho*, Ebrahim Ahmadisharaf, James Done, Chulsang Yoo (2023). A multivariate frequency analysis framework to estimate the return period of hurricane events using event-based copula. *Water Resources Research*, 59(12), e2023WR034786.",
+        "link": "https://doi.org/10.1029/2023WR034786"
+      },
+      {
+        "desc": "*Eunsaem Cho*, Chulsang Yoo, Minseok Kang, Sung-uk Song, Soeun Kim (2020). Experiment of Wind-Driven-Rain Measurement on Building Walls and Its In-situ Validation, *Building and Environment*, 185, 107269.",
+        "link": "https://doi.org/10.1016/j.buildenv.2020.107269"
+      }
+    ],
+    "activities": [
+      {
+        "desc": "*2025 Land Modeling Workshop,* Austin, Texas, USA."
+      },
+      {
+        "desc": "*2025 Eastern Snow Conference,* Syracuse, New York, USA."
+      },
+      {
+        "desc": "*2024 AGU Annual Meeting,* Washington, D.C., USA."
+      },
+      {
+        "desc": "*2024 Hands-on R Workshop,* San Marcos, Texas, USA."
+      }
+    ],
+    "ConferencePapers": [
+      {
+        "desc": "*Cho, E.*, Cho, E., Vuyovich, C., Li, B., Jacobs, J. (2025). Evaluation of the Noah-MP Land Surface Model for Snowmelt-Driven Flood Generation: Guidelines for Selecting Parameterization Schemes, *2025 Eastern Snow Conference*, Syracuse, New York,"
+      },
+      {
+        "desc": "*Cho, E.*, Cho, E., Vuyovich, C., Li, B., Jacobs, J. (2024). Assessing the Role of Antecedent Groundwater and Soil Moisture Conditions in Snowmelt Flood Generation using Retrospective Noah-MP Model, *2024 AGU Annual Meeting*, Washington, D.C., USA."
+      },
+      {
+        "desc": "*Cho, E.*, Ahmadisharaf, E., AghaKouchak, A. (2024). Unveiling Connections Between Shifting Reservoir Inflows Trend and Climate Variables in West and Southwest United States, *2024 EWRI World Environmental and Water Resources Congress*, Milwaukee, USA."
+      },
+      {
+        "desc": "*Cho, E.*, Ahmadisharaf, E., Done, J., Yoo., C. (2023). A Copula-based Analysis to Estimate the Multivariate Return Period of Hurricane,* 2023 AGU Annual Meeting*, San Francisco, USA."
+      },
+      {
+        "desc": "*Cho, E.*, Yoo., C. (2022). Impact of High-rise Buildings on Hydrological Cycles and Flood Risk in Urban Basin, *2022 AGU Annual Meeting*, Chicago, USA."
+      }
+    ]
   },
   {
     "_id": "68ae7e1dcb630c29e1ab71c7",
@@ -47,14 +116,38 @@
     "linkedin": "https://www.linkedin.com/in/annelise-holguin/",
     "img": "/images/team/AnneliseHolguin.png",
     "order": 4,
-    "about": "",
+    "about": "Annelise’s research interests include remote sensing, hydrology, human-environmental impacts, and social justice. Currently her work in the Cho Lab utilizes remote sensing and machine learning to predict crop yield using a specialized database from the U.S. Department of Agriculture’s Beltsville Agricultural Research Center. She is currently working on her M.S. in Geography at Texas State University, where she also attended undergraduate studies in Geography Resource Use and Environmental Studies. When she’s not in the lab, she likes to represent the university on the swim club and in choir.",
     "activities": [
       {
-        "desc": "Participated and Presented at the TXST Stem Conference 2025",
-        "link": "/news/67ed9d031f076501e8dc1d11"
+        "desc": "*2024 ASA, CSA, SSSA (CANVAS) Conference*, San Antonio, TX, USA"
       }
     ],
-    "publications": []
+    "awards": [
+      {
+        "desc": "*Best Oral Presentation* (2025, American Association of Hispanics in Higher Education Conference)"
+      },
+      {
+        "desc": "*CAMINOS for Success Fellowship* (2024-2025, Texas State University & USDA)"
+      },
+      {
+        "desc": "*Taetz Family Scholarship* (2024, Texas State University)"
+      },
+      {
+        "desc": "*Lester/Wahl Family Scholarship* (2024, Texas State University)"
+      },
+      {
+        "desc": "*Byron “Doc” Augustin Undergraduate Geography Scholarship* (2023, Texas State University)"
+      }
+    ],
+    "publications": [],
+    "ConferencePapers": [
+      {
+        "desc": "*Holguin, A.*, Cho, E., Kraatz, S., Johnson, D., Chang, J. (2025). Machine Learning-Based Sub-Field Crop Yield Prediction using Google Earth Engine and Satellite Remote Sensing Data, *Texas State University STEM Conference*, San Marcos, USA"
+      },
+      {
+        "desc": "*Holguin, A.*, Devine, J., Currit, N. (2025) Sustainability Challenges in the Mezcal Sector in Oaxaca, Mexico, *American Association of Hispanics in Higher Education Conference*, Denver, USA."
+      }
+    ]
   },
   {
     "id": "673b77176cfbde29aec24ffb",
@@ -65,17 +158,42 @@
     "linkedin": "https://www.linkedin.com/in/farhaan-cooverji-a19558213/",
     "img": "/images/team/FarhaanCooverji.png",
     "order": 5,
-    "about": "",
-    "awards": [],
+    "about": "Farhaan’s research interests are centered around the cryosphere, integrating remote sensing, land surface modeling, and GIS to investigate snow and ice processes. His current work examines snow-induced runoff in the Smith River Watershed (Montana, U.S.) by combining land surface model outputs, ground-based observations, and water balance analyses. He graduated with a double major in Anthropology and GIS from Texas State University and has returned to pursue an M.S. in Geography. Beyond research, Farhaan serves as an assistant coach for the TXST Men’s Soccer Club and enjoys exploring media regarding archaeology and world history. ",
+    "awards": [
+      {
+        "desc": "*Jeffries Family Scholarship in Geography* (2025, Department of Geography & Environmental Studie, Texas State University, San Marcos, Texas)"
+      },
+      {
+        "desc": "*Second Place at TXST PANGEA Conference* (2024, Department of Geography & Environmental Studie, Texas State University, San Marcos, Texas)"
+      },
+      {
+        "desc": "*Dreeben Merit Fellowship* (2024, The Graduate College, Texas State University, San Marcos, Texas)"
+      },
+      {
+        "desc": "*Bernard W. Detlefsen Senior Academic and Leadership Scholarship* (2024, Department of Geography & Environmental Studies, Texas State University, San Marcos, Texas)"
+      }
+    ],
     "publications": [],
     "activities": [
       {
-        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
-        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
+        "desc": "*CUAHSI Snow School (2025)*, Mammoth Lakes, CA"
       },
       {
-        "desc": "Participated and Presented at the TXST Stem Conference 2025",
-        "link": "/news/67ed9d031f076501e8dc1d11"
+        "desc": "*R workshop (2024)*, San Marcos, Texas"
+      }
+    ],
+    "ConferencePapers": [
+      {
+        "desc": "*Cooverji, F.*, Cho, E., Li, B., Vuyovich, C., Jacobs, j., Cho, E., Tuttle, S., Sproles, E. (2025). Quantification Of Snowmelt-induced Streamflow Within The Smith River Watershed, Montana, Using A Water Balance Analysis. *2025 Eastern Snow Conference*, Syracuse, New York."
+      },
+      {
+        "desc": "*Cooverji, F.*, Cho, E., Li, B., Vuyovich, C., Jacobs, j., Tuttle, S., Sproles, E. (2025). Quantifying Snowmelt-Driven Streamflow and Estimating the Regional Water Balance of the Smith River Watershed, Montana, USA. *2024 TXST STEM Conference*, San Marcos, Texas."
+      },
+      {
+        "desc": "*Cooverji, F.*, Cho, E., Li, B., Vuyovich, C., Jacobs, j., Tuttle, S., Sproles, E. (2025). Snow Water Supply And Regional Water Balance Estimation in a Snow-Dominant Watershed, Montana, USA. *2024 TXST PANGEA*, San Marcos, Texas."
+      },
+      {
+        "desc": "*Cooverji, F.*, Cho, E., Li, B., Vuyovich, C., Jacobs, j., Tuttle, S., Sproles, E. (2024). Regional Water Balance Analysis for Quantifying Snow Water Supply in a Snow-Dominant Watershed, Montana, USA. *2024 AGU Annual Meeting*, Washington, D.C., USA."
       }
     ]
   },

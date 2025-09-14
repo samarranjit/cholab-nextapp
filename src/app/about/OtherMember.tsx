@@ -132,7 +132,9 @@ function OtherMember() {
                     (tab.key === "about" && !selectedMember.about) ||
                     (tab.key === "publications" &&
                       (!selectedMember.publications ||
-                        selectedMember.publications.length === 0)) ||
+                        selectedMember.publications.length === 0) &&
+                      (!selectedMember.ConferencePapers ||
+                        selectedMember.ConferencePapers.length === 0)) ||
                     (tab.key === "awards" &&
                       (!selectedMember.awards ||
                         selectedMember.awards.length === 0))
@@ -143,14 +145,14 @@ function OtherMember() {
                     <button
                       key={tab.key}
                       className={`
-                px-6 py-3 font-semibold text-sm md:text-base whitespace-nowrap
-                border-b-2 transition-all duration-200 hover:bg-slate-50 cursor-pointer
-                
-                ${
-                  activeSection === tab.key
-                    ? "border-tertiary text-slate-800 bg-slate-50"
-                    : "border-transparent text-slate-600 hover:text-slate-800"
-                }
+              px-6 py-3 font-semibold text-sm md:text-base whitespace-nowrap
+              border-b-2 transition-all duration-200 hover:bg-slate-50 cursor-pointer
+              
+              ${
+                activeSection === tab.key
+                  ? "border-tertiary text-slate-800 bg-slate-50"
+                  : "border-transparent text-slate-600 hover:text-slate-800"
+              }
               `}
                       onClick={() => setActiveSection(tab.key)}
                     >
@@ -192,8 +194,20 @@ function OtherMember() {
                                     <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
                                     <div className="flex-1 flex flex-col justify-center">
                                       <p className="text-slate-700 m-0 text-sm md:text-base">
-                                        {activity?.desc ||
-                                          "No publication details."}
+                                        {(activity?.desc || "")
+                                          .split(/(\*[^*]+\*)/g)
+                                          .map((part, idx) =>
+                                            part.startsWith("*") &&
+                                            part.endsWith("*") ? (
+                                              <strong key={idx}>
+                                                {part.slice(1, -1)}
+                                              </strong>
+                                            ) : (
+                                              <React.Fragment key={idx}>
+                                                {part}
+                                              </React.Fragment>
+                                            )
+                                          )}
                                       </p>
                                       {activity?.link && (
                                         <Link
@@ -246,30 +260,20 @@ function OtherMember() {
                                 <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
                                 <div className="flex-1">
                                   <p className="text-slate-700 leading-relaxed text-sm md:text-base">
-                                    {publication?.authors?.map((author, i) => {
-                                      const citationFormat = `${
-                                        selectedMember.name.split(" ")[
-                                          selectedMember.name.split(" ")
-                                            .length - 1
-                                        ]
-                                      } ${
-                                        selectedMember.name.split(" ")[0][0]
-                                      }.`;
-                                      if (author === citationFormat) {
-                                        return (
-                                          <span
-                                            key={i}
-                                            className="font-semibold"
-                                          >{`${author}, `}</span>
-                                        );
-                                      }
-                                      return (
-                                        <span key={i}>{`${author}, `}</span>
-                                      );
-                                    })}
-                                    <span className="italic"></span>
-                                    {publication?.title ||
-                                      "No publication details."}
+                                    {(publication?.desc || "")
+                                      .split(/(\*[^*]+\*)/g)
+                                      .map((part, idx) =>
+                                        part.startsWith("*") &&
+                                        part.endsWith("*") ? (
+                                          <strong key={idx}>
+                                            {part.slice(1, -1)}
+                                          </strong>
+                                        ) : (
+                                          <React.Fragment key={idx}>
+                                            {part}
+                                          </React.Fragment>
+                                        )
+                                      )}
                                   </p>
                                   {publication?.link && (
                                     <Link
@@ -291,7 +295,9 @@ function OtherMember() {
                       {/* Conference Papers */}
                       {(selectedMember?.ConferencePapers?.length ?? 0) > 0 && (
                         <div className="space-y-4">
-                          <p className="font-semibold">Conference Papers:</p>
+                          <p className="font-semibold text-lg">
+                            Conference Papers:
+                          </p>
                           {selectedMember?.ConferencePapers?.map(
                             (paper, index) => (
                               <div
@@ -302,7 +308,20 @@ function OtherMember() {
                                 <div className="flex-1">
                                   <p className="text-slate-700 leading-relaxed text-sm md:text-base">
                                     <span className="italic"></span>
-                                    {paper?.desc || "No publication details."}
+                                    {(paper?.desc || "")
+                                      .split(/(\*[^*]+\*)/g)
+                                      .map((part, idx) =>
+                                        part.startsWith("*") &&
+                                        part.endsWith("*") ? (
+                                          <strong key={idx}>
+                                            {part.slice(1, -1)}
+                                          </strong>
+                                        ) : (
+                                          <React.Fragment key={idx}>
+                                            {part}
+                                          </React.Fragment>
+                                        )
+                                      )}
                                   </p>
                                   {paper?.link && (
                                     <Link
@@ -346,7 +365,19 @@ function OtherMember() {
                           <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
                           <div className="flex-1">
                             <p className="text-slate-700 leading-relaxed text-sm md:text-base">
-                              {award?.desc || "No award details."}
+                              {(award?.desc || "")
+                                .split(/(\*[^*]+\*)/g)
+                                .map((part, idx) =>
+                                  part.startsWith("*") && part.endsWith("*") ? (
+                                    <strong key={idx}>
+                                      {part.slice(1, -1)}
+                                    </strong>
+                                  ) : (
+                                    <React.Fragment key={idx}>
+                                      {part}
+                                    </React.Fragment>
+                                  )
+                                )}
                             </p>
                             {award?.link && (
                               <Link

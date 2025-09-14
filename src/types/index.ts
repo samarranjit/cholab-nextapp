@@ -27,11 +27,8 @@ export interface ConferencePaper {
 }
 
 export interface MemberPublication{
-    authors?: string[],
-    title?: string,
-    link?: string,
-    journal?: string,
-    date?: string
+    desc?: string;
+    link?: string;
   }
 
 export interface TeamMember {
