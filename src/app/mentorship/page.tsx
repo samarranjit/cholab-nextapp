@@ -32,7 +32,7 @@ const courses = [
 
 // Metadata for SEO
 export const metadata: Metadata = {
-  title: "Mentorship | The Cho Lab",
+  title: "Mentorship",
   description:
     "Explore courses taught by Dr. Cho at Texas State University: Fluid Mechanics, Hydrology, and Water, Climate, and Disasters. Explore course details and syllabi.",
   keywords: [

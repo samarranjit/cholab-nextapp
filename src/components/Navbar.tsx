@@ -49,7 +49,7 @@ function Navbar() {
             Research
           </Link>
           <Link
-            href="/about"
+            href="/people"
             className="hover:text-tertiary transition duration-200"
           >
             People
@@ -113,7 +113,7 @@ function Navbar() {
                 <section>Research</section>
               </Link>
               <Link
-                href="/about"
+                href="/people"
                 className="px-4 hover:text-tertiary duration-300"
               >
                 <section>People</section>

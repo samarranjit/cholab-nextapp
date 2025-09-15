@@ -3,7 +3,7 @@ import ResearchContent from "./ResearchContent";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Research | The Cho Lab at Texas State",
+  title: "Research",
   description:
     "Discover the Cho Lab's research projects in hydrology, water resources, climate change, and environmental sustainability.",
   keywords: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     url: "https://cholab.science/research",
     images: [
       {
-        url: "/StaticImages/BGRESEARCH.jpg", // Ensure this image exists in /public
+        url: "/StaticImages/MapOfWorld2.png", // Ensure this image exists in
         width: 1200,
         height: 630,
         alt: "Cho Lab Research Overview",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Research | The Cho Lab at Texas State",
     description:
       "Discover the Cho Lab's research projects in hydrology, water resources, climate change, and environmental sustainability.",
-    images: ["/StaticImages/BGRESEARCH.jpg"],
+    images: ["/StaticImages/MapOfWorld2.png"],
   },
 };
 

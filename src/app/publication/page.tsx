@@ -4,7 +4,7 @@ import PublicationContent from "@/app/publication/PublicationContent";
 import Loader from "@/components/Loader";
 
 export const metadata: Metadata = {
-  title: "Publications | The Cho Lab",
+  title: "Publications",
   description:
     "Explore publications from Dr. Eunsang Cho and his team members at The Cho Lab, advancing research in hydrology, water resources, and climate science.",
   keywords: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     url: "https://cholab.science/publication",
     images: [
       {
-        url: "/StaticImages/PublicationsBgImage.jpg",
+        url: "/StaticImages/PublicationsBgImage.png",
         width: 1200,
         height: 630,
         alt: "Cho Lab research publications banner",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Publications | The Cho Lab",
     description:
       "Browse publications from Dr. Eunsang Cho and his team members at The Cho Lab, advancing research in hydrology, water resources, and climate science.",
-    images: ["/StaticImages/PublicationsBgImage.jpg"],
+    images: ["/StaticImages/PublicationsBgImage.png"],
   },
   alternates: {
     canonical: "https://cholab.science/publication",

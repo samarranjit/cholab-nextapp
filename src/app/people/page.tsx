@@ -9,15 +9,15 @@ import Link from "next/link";
 import Image from "next/image";
 import Alumni from "./Alumni";
 export const metadata: Metadata = {
-  title: "About Team | The Cho Lab",
+  title: "People",
   description:
-    "Meet the Cho Lab team at Texas State University. Learn about our members, mission, and research focus on hydrology, water resources, and climate.",
+    "Meet the Cho Lab team at Texas State University. Learn about our members, mission, and research focus on hydrology, water resources, climate and much more.",
   openGraph: {
-    title: "About The Team | The Cho Lab",
+    title: "People | The Cho Lab",
     description:
-      "Meet the Cho Lab team at Texas State University. Learn about our members, mission, and research focus on hydrology, water resources, and climate.",
+      "Meet the members of the Cho Lab team at Texas State University. Learn about our members, mission, and research focus on hydrology, water resources, and climate.",
     type: "website",
-    url: "https://cholab.science/about",
+    url: "https://cholab.science/people",
     images: [
       {
         url: "/StaticImages/group_photo.jpg",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "About The Team | The Cho Lab",
+    title: "People | The Cho Lab",
     description:
       "Meet the Cho Lab team at Texas State University. Learn about our members, mission, and research focus on hydrology, water resources, and climate.",
     card: "summary_large_image",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     "university research lab",
   ],
   alternates: {
-    canonical: "https://cholab.science/about",
+    canonical: "https://cholab.science/people",
   },
 };
 

@@ -12,7 +12,7 @@ const MeetChoLab = () => {
       </h2>
       <div className="flex align-center justify-center items-center px-2 md:p-9">
         <Link
-          href={"/about#DrChoInfo"}
+          href={"/people#DrChoInfo"}
           className="flex align-center items-center justify-center"
         >
           <Image

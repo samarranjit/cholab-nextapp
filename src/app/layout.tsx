@@ -10,7 +10,10 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "The Cho Lab | Texas State University",
+  title: {
+    default: "The Cho Lab | Texas State University",
+    template: "%s - The Cho Lab",
+  },
   description:
     "The Cho Lab at Texas State uses advanced sensing, modeling, and big-data analytics to contribute to water sustainability, drought, and flooding.",
   keywords: [
@@ -43,7 +46,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/StaticImages/Home_ResearchBgImage.jpg",
+        url: "/StaticImages/OpenGraphHomeImg.png",
         width: 1200,
         height: 630,
         alt: "The Cho Lab at Texas State",
@@ -55,7 +58,7 @@ export const metadata: Metadata = {
     title: "The Cho Lab | Texas State University",
     description:
       "The Cho Lab at Texas State uses advanced sensing, modeling, and big-data analytics to contribute to water sustainability, drought, and flooding.",
-    images: ["/StaticImages/Home_ResearchBgImage.jpg"],
+    images: ["/StaticImages/OpenGraphHomeImg.png"],
   },
   icons: {
     icon: "/cholabbgincluded.png",

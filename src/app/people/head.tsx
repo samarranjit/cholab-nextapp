@@ -14,12 +14,12 @@ export default function Head() {
     description:
       "Dr. Eunsang Cho is an Assistant Professor at Texas State University, specializing in hydrology, water resources, and climate research. His work focuses on understanding the impacts of climate change on water systems.",
     affiliation: "Texas State University",
-    url: "https://cholab.science/about",
+    url: "https://cholab.science/people",
   };
 
   return (
     <>
-      <link rel="canonical" href="https://cholab.science/about" />
+      <link rel="canonical" href="https://cholab.science/people" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(teamJsonLd) }}

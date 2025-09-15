@@ -6,7 +6,7 @@ import Loader from "@/components/Loader";
 
 // Metadata for SEO
 export const metadata: Metadata = {
-  title: "Opportunities | The Cho Lab",
+  title: "Opportunities",
   description:
     "Explore current research, internship, and fellowship opportunities at the Cho Lab, Texas State University. Join our team and contribute to water sustainability research.",
   keywords: [

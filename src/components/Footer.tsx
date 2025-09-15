@@ -141,7 +141,7 @@ function Footer() {
 
               <div className="grid grid-cols-2 gap-2 max-w-md mx-auto md:mx-0">
                 <Link
-                  href="/about"
+                  href="/people"
                   className="text-primary/90 hover:text-tertiary transition-colors duration-200 text-sm font-medium py-1 md:py-2"
                 >
                   PEOPLE
