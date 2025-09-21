@@ -206,19 +206,19 @@
     "linkedin": "https://www.linkedin.com/in/jipeng-liu-91b57b327",
     "img": "/images/team/JipengLiu.png",
     "order": 6,
-    "about": "",
+    "about": "Jipeng is a Master’s student in Civil Engineering at Texas State University. His research bridges hydrology, remote sensing, and UAV-based geospatial technologies, with a focus on improving snow depth and soil moisture measurements. His current projects include evaluating the accuracy of airborne LiDAR for snow depth estimation in boreal forests using NASA SnowEx 2023 data and developing UAV-mounted gamma-ray spectroscopy approaches for soil moisture monitoring. He also holds a Part 107 FAA Remote Pilot Certificate, which supports his expertise in UAV-based environmental observation. Beyond research, he serves as a Graduate Instructional Assistant for the Ingram School of Engineering, assisting in Fluid Mechanics courses. In addition to his academic pursuits, Jipeng is the President of the Chinese Students and Scholars Association at Texas State University, where he leads cultural, academic, and community-building initiatives. He earned his Bachelor’s degree in Hydrology and Water Resources Engineering from Shandong Agricultural University (2020–2024). He also enjoys teaching, collaborating with peers in the Journal Club, and engaging with innovative applications of UAV technology in water resources science.",
     "activities": [
       {
-        "desc": "Contributed to DOE Funded Summer Camp 2025",
-        "link": "/news/68aa4f6f2632157eef3f538f"
+        "desc": "Contributed to *DOE Funded Summer Camp 2025*, San Marcos, TX, USA.",
+        "link": "/news/DOESummerCamp2025"
       },
       {
-        "desc": "Attended and Presented at the Eastern Snow Conference 2025",
+        "desc": "Attended and Presented at the *Eastern Snow Conference 2025*, Syracuse, NY, USA.",
         "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
       },
       {
-        "desc": "Participated and Presented at the TXST Stem Conference 2025",
-        "link": "/news/67ed9d031f076501e8dc1d11"
+        "desc": "Participated and Presented at the *TXST Stem Conference 2025*, San Marcos, TX, USA.",
+        "link": "/news/TxstStemConference2025"
       }
     ],
     "publications": []
@@ -234,12 +234,12 @@
     "order": 7,
     "activities": [
       {
-        "desc": "Contributed to DOE Funded Summer Camp 2025",
-        "link": "/news/68aa4f6f2632157eef3f538f"
+        "desc": "Contributed to *DOE Funded Summer Camp 2025*, San Marcos, TX, USA.",
+        "link": "/news/DOESummerCamp2025"
       },
       {
-        "desc": "Participated and Presented at the TXST Stem Conference 2025",
-        "link": "/news/67ed9d031f076501e8dc1d11"
+        "desc": "Participated and Presented at the *TXST Stem Conference 2025*, San Marcos, TX, USA.",
+        "link": "/news/TxstStemConference2025"
       }
     ],
     "about": "",
@@ -309,36 +309,15 @@
     "img": "/images/team/SamarRanjit.png",
     "about": "Samar Ranjit is an undergraduate student at Texas State University with a strong interest in data science, remote sensing, and the ways technology can be applied to environmental research. He is particularly drawn to how geospatial tools and advanced analytics can be used to study natural systems and address issues such as food security and climate resilience. At the Cho Lab, his work centers on analyzing crop yield dynamics, where he studies spatial patterns, detects yield breakpoints, and evaluates edge effects across agricultural fields to better understand yield stability over time. Beyond this research, Samar is actively developing his knowledge in artificial intelligence and machine learning, fields he sees as offering vast opportunities for solving complex, real-world problems. He approaches his academic and professional journey as one of continuous learning, always looking to build new skills and improve as a researcher. In the long term, his goal is to integrate computer science and Earth sciences, creating innovative tools and approaches that can advance sustainable agriculture and contribute to broader environmental solutions.",
     "order": 10,
-    "awards": [
-      {
-        "desc": "Sample award",
-        "link": ""
-      }
-    ],
-    "publications": [
-      {
-        "authors": [
-          "Ranjit S.",
-          "Cho E."
-        ],
-        "title": "Analyzing Crop Yield Stability Using Remote Sensing and Machine Learning",
-        "link": "https://example.com/publication2",
-        "journal": "Agricultural Systems",
-        "date": "2025-06-15"
-      }
-    ],
+    "awards": [],
+    "publications": [],
     "activities": [
       {
-        "desc": "Participated in the TXST Stem Conference 2025",
-        "link": "/news/67ed9d031f076501e8dc1d11"
+        "desc": "Participated in the *TXST Stem Conference 2025*, San Marcos, TX, USA.",
+        "link": "/news/TxstStemConference2025"
       }
     ],
-    "ConferencePapers": [
-      {
-        "desc": "Presented research at the Eastern Snow Conference 2025",
-        "link": "/Files/Assets/ESC2025Slides/Farhaan_ESC_poster_(48x30).pdf"
-      }
-    ]
+    "ConferencePapers": []
   },
   {
     "_id": "687283c539fe8fb737d3a5e8",
@@ -349,7 +328,7 @@
     "linkedin": "https://www.linkedin.com/in/hrishant-sh/",
     "img": "/images/team/HrishantSharma.png",
     "order": 11,
-    "about": "",
+    "about": "Hrishant is an undergraduate majoring in Computer Science at Texas State University. His work focuses on machine-learning–based streamflow prediction across short- to sub-seasonal lead times. He builds end-to-end data workflows that combine Python data processing with remote-sensing features to produce reliable, reproducible pipelines for hydrology applications. On the modeling side, Hrishant evaluates LSTM, CNN-LSTM, and Transformer architectures, integrating hydro-meteorological inputs such as precipitation, temperature, snow metrics, and historical flow. He is also developing skills in cloud platforms and data-engineering practices to support scalable training and deployment. Passionate about data quality, he specializes in preprocessing, cleaning, and managing large datasets to ensure robust, interpretable results. Looking ahead, he aims to build cloud-ready data systems that translate research models into practical decision support for water-resources management. He is eager to keep learning and to deepen his data-engineering and research skill set.",
     "publications": []
   },
   {
