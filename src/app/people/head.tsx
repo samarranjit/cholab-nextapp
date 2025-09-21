@@ -4,7 +4,7 @@ export default function Head() {
     "@type": "Person",
     name: "Dr. Eunsang Cho",
     jobTitle: "Principal Investigator, Assistant Professor",
-    image: "https://www.cholab.science/ChoLabLogo.png",
+    image: "https://cholab.science/ChoLabLogo.png",
     email: "eunsang.cho@txstate.edu",
     sameAs: [
       "https://www.linkedin.com/in/eunsang-cho-b455a8126/",
