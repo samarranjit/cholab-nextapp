@@ -26,7 +26,6 @@ export function useTeamMembersDetails() {
                     publications: member.publications ?? [],
                     ConferencePapers: member.ConferencePapers ?? [],
                     activities: member.activities ?? []
-                    
                 }))
             );
             setLoading(false);

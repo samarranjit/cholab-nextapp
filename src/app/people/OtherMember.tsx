@@ -181,25 +181,40 @@ function OtherMember() {
                           {selectedMember.about}
                         </p>
                         {(selectedMember?.activities?.length ?? 0) > 0 && (
-                          <div className="activities space-y-0">
-                            <p className="font-semibold">Activities:</p>
-
-                            <div className="space-y-4">
+                          <div className="activities space-y-6">
+                            <p className="font-semibold text-lg mb-4">
+                              Activities:
+                            </p>
+                            <div className="grid gap-4 sm:gap-6">
                               {selectedMember?.activities?.map(
                                 (activity, index) => (
                                   <div
                                     key={`${selectedMember.id}-activity-${index}`}
-                                    className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
+                                    className="group flex items-start gap-4 p-4 sm:p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-all duration-200 hover:shadow-sm border border-slate-100/50"
                                   >
-                                    <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
-                                    <div className="flex-1 flex flex-col justify-center">
-                                      <p className="text-slate-700 m-0 text-sm md:text-base">
+                                    {/* Status indicator */}
+                                    <div className="w-2 h-2 bg-tertiary rounded-full flex-shrink-0 mt-2 group-hover:scale-110 transition-transform duration-200"></div>
+
+                                    {/* Content container */}
+                                    <div className="flex-1 min-w-0 space-y-3">
+                                      {/* Title */}
+                                      {activity?.title && (
+                                        <h3 className="text-md sm:text-md font-medium text-slate-900 leading-tight m-0 p-0">
+                                          {activity?.title}
+                                        </h3>
+                                      )}
+
+                                      {/* Description */}
+                                      <div className="text-slate-700 text-sm sm:text-base leading-relaxed m-0">
                                         {(activity?.desc || "")
                                           .split(/(\*[^*]+\*)/g)
                                           .map((part, idx) =>
                                             part.startsWith("*") &&
                                             part.endsWith("*") ? (
-                                              <strong key={idx}>
+                                              <strong
+                                                key={idx}
+                                                className="font-semibold text-slate-900"
+                                              >
                                                 {part.slice(1, -1)}
                                               </strong>
                                             ) : (
@@ -208,17 +223,21 @@ function OtherMember() {
                                               </React.Fragment>
                                             )
                                           )}
-                                      </p>
+                                      </div>
+
+                                      {/* Link */}
                                       {activity?.link && (
-                                        <Link
-                                          href={activity.link}
-                                          target="_blank"
-                                          rel="noopener noreferrer"
-                                          className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium mt-1"
-                                        >
-                                          View Details{" "}
-                                          <FaExternalLinkAlt className="w-3 h-3" />
-                                        </Link>
+                                        <div className="pt-1">
+                                          <Link
+                                            href={activity.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm font-medium transition-colors duration-200 hover:underline decoration-2 underline-offset-2"
+                                          >
+                                            <span>View Details</span>
+                                            <FaExternalLinkAlt className="w-3 h-3 transition-transform duration-200 group-hover:translate-x-0.5" />
+                                          </Link>
+                                        </div>
                                       )}
                                     </div>
                                   </div>
@@ -296,7 +315,7 @@ function OtherMember() {
                       {(selectedMember?.ConferencePapers?.length ?? 0) > 0 && (
                         <div className="space-y-4">
                           <p className="font-semibold text-lg">
-                            Conference Papers:
+                            Conference Proceedings:
                           </p>
                           {selectedMember?.ConferencePapers?.map(
                             (paper, index) => (

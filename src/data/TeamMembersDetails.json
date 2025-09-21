@@ -256,11 +256,48 @@
     "order": 8,
     "activities": [
       {
-        "desc": "Participated and Presented at the TXST Stem Conference 2025",
-        "link": "/news/67ed9d031f076501e8dc1d11"
+        "desc": "Attended Training at *JICA’s Knowledge Co-Creation Program (KCCP)* on “Practical Methodology for Flood Control Planning and River Basin Management in Asia Region” (2022), Tsukuba, Ibaraki, Japan.",
+        "link": ""
+      },
+      {
+        "desc": "Presented as a *Guest lecturer for the course CE4370: Hydraulics* at Ingram School of Engineering, Texas State University",
+        "link": ""
       }
     ],
-    "publications": []
+    "about": "Momin is a water resources and transportation researcher whose work focuses on the impacts of coastal flooding on roadway networks and infrastructure resilience. He integrates hydrodynamic modeling, GIS, and traffic simulation to evaluate how extreme coastal flood events affect transportation systems. Momin earned his B.Sc. in Civil Engineering from the Bangladesh University of Engineering and Technology (BUET), one of the premier engineering institutions in South Asia, and went on to serve in the Bangladesh Water Development Board, where he designed hydraulic infrastructures, managed river basin projects, and implemented flood control and monitoring initiatives. At Texas State University, his research includes developing flood hazard maps for Galveston Island, simulating the 1-in-100 AEP flood event and Hurricane Ike 2008, and identifying vulnerable roadway segments using macroscopic traffic simulation, while also applying advanced machine learning and deep learning techniques—including LSTM, GRU, CNN-LSTM, and Transformer models—for forecasting sea water levels and assessing flood risk. Beyond the U.S., Momin has investigated riverbank line shifting along the Meghna River in Bhola Island, Bangladesh, and presented research on structural performance evaluation at the International Conference on Disaster Risk Mitigation (BUET-JIDPUS). His academic excellence has been recognized with awards, including second place at the TXST STEM Conference 2025 and the Graduate Merit Fellowship at Texas State University. Through his work, Momin aims to advance climate-resilient transportation planning by providing evidence-based solutions that strengthen roadway durability and promote equity in flood-prone coastal regions.",
+    "publications": [],
+    "awards": [
+      {
+        "desc": "*2nd Place in the TXST STEM Conference 2025*, TX, USA.",
+        "link": "https://www.cose.txst.edu/cose-news/news-2025/stem-conference-student-poster-presentations.html"
+      },
+      {
+        "desc": "*Graduate Merit Fellowship*, Texas State University, USA."
+      },
+      {
+        "desc": "*University Merit List*, BUET, Bangladesh."
+      },
+      {
+        "desc": "*Dean’s Listed in Department of Civil Engineering*, BUET, Bangladesh."
+      },
+      {
+        "desc": "*Scholarship on Higher Secondary Certificate*, Bangladesh."
+      },
+      {
+        "desc": "*Scholarship on Junior Scholarship Examination*, Bangladesh."
+      }
+    ],
+    "ConferencePapers": [
+      {
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Hydrodynamic Simulation of Coastal Flooding to Determine the Vulnerable Hotspots of Galveston, Texas. *12th TWRN Meeting 2025*, Austin, Texas."
+      },
+      {
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). High-Resolution Hydrodynamic Modeling for Coastal Flood Hazard Mapping for Galveston Island: Model Development and Validation. *2025 TXST STEM Conference*, San Marcos, Texas."
+      },
+      {
+        "desc": "*Momin, M.S.M.I.*, Ahmed, M.Z. (2017). Performance Evaluation of RC Structure Using Pushover Analysis and Two Case Studies. *International Conference on Disaster Risk Mitigation 2017*, Dhaka, Bangladesh."
+      }
+    ]
   },
   {
     "id": "67605945dbdbbed77acf55ec",

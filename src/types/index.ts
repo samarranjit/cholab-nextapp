@@ -17,6 +17,7 @@ export interface Award {
   link?: string;
 }
 export interface Activity {
+  title?: string;
   desc?: string;
   link?: string;
 }
