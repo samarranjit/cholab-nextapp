@@ -1,87 +1,95 @@
-[{
-  "_id": "6739194ea2a85c5743b979cd",
-  "title": "Groundwater Impact on S2S Snowmelt Flood Predictability",
-  "body": [
-    "The premise of this project is that better accounting for winter groundwater and antecedent soil moisture within the water balance will improve subsequent spring snowmelt flooding predictions, with consequent benefits for society in snow-dominant regions through the enhanced capability of these S2S flood predictions. \nThe overarching goal of our project is (1) to improve the physical understanding of the groundwater impact on snow-driven streamflow and flood events and (2) to enhance the predictive skill of snowmelt floods on S2S timescales using ground- and satellite observations (GRACE, GRACE-FO, and SMAP), retrospective land surface modeling, and data assimilation techniques."
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734371843/o1gn2mzogpk1vpa7t6hn.png",
-  "otherImg": [],
-  "date": "2019-01-12",
-  "__v": 0,
-  "collaborators": "Carrie Vuyovich (NASA), Bailing Li (NASA/UMD), Eunsaem Cho (NASA/UMD), Jennifer Jacobs (Univ. New Hampshire)",
-  "period": "2023-2026",
-  "sponsors": "NASA",
-  "badge": "Climate Change"
-},
-{
-  "_id": "6760577a0e5a11ec7d9aefcb",
-  "title": "Hydrological Modeling of PFAS Transfer under Climate Change Scenarios",
-  "body": [
-    "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental contaminants that pose significant risks to water quality and ecosystem health. Understanding the transport and fate of PFAS in hydrological systems is crucial for developing effective mitigation strategies. This study employs advanced hydrological modeling to investigate PFAS transfer processes under varying climate change scenarios, focusing on how changes in precipitation patterns, temperature, and extreme events influence PFAS distribution. By integrating land surface modeling and climate projections, this research aims to provide insights into PFAS behavior in changing hydrological systems, supporting better management of water resources in the face of climate change.",
-    ""
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734372437/uuimazoxzhln7iru7kbo.jpg",
-  "otherImg": [],
-  "date": "2005-05-05",
-  "period": "2024-2027",
-  "sponsors": "Department of Energy (DOE)",
-  "collaborators": "San Hwang (TXST), Ripendra Awal (PVAMU)",
-  "badge": "Hydrology"
-},
-{
-  "_id": "6762bb9f6682b672d052c936",
-  "title": "Emerging UAV gamma-ray and lidar snow observations for improved water supply modeling in the Missouri headwaters",
-  "body": [
-    "This project addresses the limitations of current snow observation methods used for water supply forecasting by integrating emerging technologies such as UAV gamma SWE, lidar, and ground-based SWE sensors. The research focuses on evaluating these technologies across diverse landscapes, improving snow distribution representativeness at SNOTEL stations, and enhancing water supply forecasts through a coupled snow-runoff modeling framework. The outcomes aim to identify and advance snow monitoring technologies, improve forecast accuracy, and facilitate broader regional applications."
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734523806/cq0f1zftz4olv7rsk36r.jpg",
-  "otherImg": [],
-  "date": "2024-11-11",
-  "period": "2024-2027",
-  "sponsors": "U.S. Department of the Interior Bureau of Reclamation",
-  "collaborators": "Eric Sproles (Montana State Univ) & Samuel Tuttle (Syracuse Univ)",
-  "badge": "Remote Sensing"
-},
-{
-  "_id": "6762bfee03d13a31b2606ec9",
-  "title": "Crop Yield Prediction using Satellite Remote Sensing and Machine Learning",
-  "body": [
-    "This project aims to improve sub-field crop yield estimation using machine learning and satellite remote sensing, particularly in regions lacking ground data. The Cho Group collaborates with USDA-ARS Hydrology and Remote Sensing Lab to utilize a recently published sub-field scale crop yield dataset from the Beltsville Agricultural Research Center (BARC), spanning 2014–2023, and focus on key staple crops like corn and soybeans. The work will assess the accuracy of yield mapping at BARC and its correspondence to county- or state-level yield statistics provided by the National Agricultural Statistics Service."
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734524909/jmuylpglgzog3p4bo2uj.png",
-  "otherImg": [],
-  "date": "2024-11-11",
-  "period": "2024-",
-  "sponsors": "USDA",
-  "collaborators": "Simon Kraatz, David Johnson, Feng Gao, & Martha Anderson (USDA)",
-  "badge": "Agriculture"
-},
-{
-  "_id": "6762c0b303d13a31b2606eef",
-  "title": "Unprecedented Coastal Flooding Hotspots for Highway Network Durability and Social Justice",
-  "body": [
-    "This project addresses the impact of coastal flooding on highway networks, particularly in underserved communities, by developing an innovative framework that integrates social vulnerability and transportation durability into coastal risk assessments. Using AI algorithms, hydrodynamic simulations, and remote sensing, the research aims to create a high-resolution flood hazard mapping system, uncover social vulnerability, and develop a web-based tool for assessing highway network durability and flood risks. The outcomes will empower decision-makers to identify critical vulnerabilities and formulate equitable responses, with Galveston, TX, serving as a testbed for broader application across coastal regions worldwide."
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734525106/bwpkgb9vbzqusibhmckj.jpg",
-  "otherImg": [],
-  "date": "2024-11-11",
-  "period": "2024-2025",
-  "sponsors": "Department of Transportation (DOT)",
-  "collaborators": "Subasish Das (TXST)",
-  "badge": "Transportation"
-},
-{
-  "_id": "6762cd91674c470f7edb7573",
-  "title": "The Great Texas Freeze and its Impact on the Water and Environment",
-  "body": [
-    "The Great Texas Freeze of 2021 caused severe disruptions to water systems, agriculture, and the environment, including widespread pipe bursts, power outages, and water contamination. The extreme cold stressed ecosystems, led to significant agricultural losses, and exposed infrastructure vulnerabilities to extreme weather. This study examines the freeze's impact on agricultural activities and vegetation, providing insights into building resilience and adaptive strategies. ",
-    "As a pilot study, this project specifically evaluates the effects of the 2021 cold outbreak on agricultural productivity and vegetation health. Using a combination of remote sensing data, field observations, and climate modeling, we aim to quantify the extent of damage, identify regions most severely affected, and assess recovery patterns. The findings will contribute to the development of adaptive strategies and resilience-building measures to better prepare for future extreme weather events. Ultimately, this research seeks to inform policymakers, agricultural stakeholders, and environmental managers on how to mitigate risks and enhance the sustainability of critical systems in the face of a changing climate."
-  ],
-  "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734528400/bwjxan311btqm2ofejtn.jpg",
-  "otherImg": [],
-  "date": "2024-11-11",
-  "period": "2024-2025",
-  "sponsors": " TXST Center for Analytics and Data Science",
-  "collaborators": "",
-  "badge": "Hydrology"
-}]
+[
+  {
+    "_id": "6739194ea2a85c5743b979cd",
+    "title": "Groundwater Impact on S2S Snowmelt Flood Predictability",
+    "metadescription": "Improves spring snowmelt flood forecasts by adding winter groundwater and soil moisture via GRACE/SMAP, land modeling, and data assimilation.",
+    "body": [
+      "The premise of this project is that better accounting for winter groundwater and antecedent soil moisture within the water balance will improve subsequent spring snowmelt flooding predictions, with consequent benefits for society in snow-dominant regions through the enhanced capability of these S2S flood predictions. \nThe overarching goal of our project is (1) to improve the physical understanding of the groundwater impact on snow-driven streamflow and flood events and (2) to enhance the predictive skill of snowmelt floods on S2S timescales using ground- and satellite observations (GRACE, GRACE-FO, and SMAP), retrospective land surface modeling, and data assimilation techniques."
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734371843/o1gn2mzogpk1vpa7t6hn.png",
+    "otherImg": [],
+    "date": "2019-01-12",
+    "__v": 0,
+    "collaborators": "Carrie Vuyovich (NASA), Bailing Li (NASA/UMD), Eunsaem Cho (NASA/UMD), Jennifer Jacobs (Univ. New Hampshire)",
+    "period": "2023-2026",
+    "sponsors": "NASA",
+    "badge": "Climate Change"
+  },
+  {
+    "_id": "6760577a0e5a11ec7d9aefcb",
+    "title": "Hydrological Modeling of PFAS Transfer under Climate Change Scenarios",
+    "metadescription": "Models how climate shifts reshape PFAS transport and fate, integrating land-surface modeling and climate projections to guide water management.",
+    "body": [
+      "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental contaminants that pose significant risks to water quality and ecosystem health. Understanding the transport and fate of PFAS in hydrological systems is crucial for developing effective mitigation strategies. This study employs advanced hydrological modeling to investigate PFAS transfer processes under varying climate change scenarios, focusing on how changes in precipitation patterns, temperature, and extreme events influence PFAS distribution. By integrating land surface modeling and climate projections, this research aims to provide insights into PFAS behavior in changing hydrological systems, supporting better management of water resources in the face of climate change.",
+      ""
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734372437/uuimazoxzhln7iru7kbo.jpg",
+    "otherImg": [],
+    "date": "2005-05-05",
+    "period": "2024-2027",
+    "sponsors": "Department of Energy (DOE)",
+    "collaborators": "San Hwang (TXST), Ripendra Awal (PVAMU)",
+    "badge": "Hydrology"
+  },
+  {
+    "_id": "6762bb9f6682b672d052c936",
+    "title": "Emerging UAV gamma-ray and lidar snow observations for improved water supply modeling in the Missouri headwaters",
+    "metadescription": "Evaluates UAV gamma SWE, lidar, and ground sensors to refine snow monitoring, improve SNOTEL representativeness, and strengthen water-supply forecasts.",
+    "body": [
+      "This project addresses the limitations of current snow observation methods used for water supply forecasting by integrating emerging technologies such as UAV gamma SWE, lidar, and ground-based SWE sensors. The research focuses on evaluating these technologies across diverse landscapes, improving snow distribution representativeness at SNOTEL stations, and enhancing water supply forecasts through a coupled snow-runoff modeling framework. The outcomes aim to identify and advance snow monitoring technologies, improve forecast accuracy, and facilitate broader regional applications."
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734523806/cq0f1zftz4olv7rsk36r.jpg",
+    "otherImg": [],
+    "date": "2024-11-11",
+    "period": "2024-2027",
+    "sponsors": "U.S. Department of the Interior Bureau of Reclamation",
+    "collaborators": "Eric Sproles (Montana State Univ) & Samuel Tuttle (Syracuse Univ)",
+    "badge": "Remote Sensing"
+  },
+  {
+    "_id": "6762bfee03d13a31b2606ec9",
+    "title": "Crop Yield Prediction using Satellite Remote Sensing and Machine Learning",
+    "metadescription": "Uses ML and satellite remote sensing to map sub-field yields at BARC (2014–2023), validating against NASS stats to support data-sparse regions.",
+    "body": [
+      "This project aims to improve sub-field crop yield estimation using machine learning and satellite remote sensing, particularly in regions lacking ground data. The Cho Group collaborates with USDA-ARS Hydrology and Remote Sensing Lab to utilize a recently published sub-field scale crop yield dataset from the Beltsville Agricultural Research Center (BARC), spanning 2014–2024, and focus on key staple crops like corn and soybeans. The work will assess the accuracy of yield mapping at BARC and its correspondence to county- or state-level yield statistics provided by the National Agricultural Statistics Service."
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734524909/jmuylpglgzog3p4bo2uj.png",
+    "otherImg": [],
+    "date": "2024-11-11",
+    "period": "2024-",
+    "sponsors": "USDA",
+    "collaborators": "Simon Kraatz, David Johnson, Feng Gao, & Martha Anderson (USDA)",
+    "badge": "Agriculture"
+  },
+  {
+    "_id": "6762c0b303d13a31b2606eef",
+    "title": "Unprecedented Coastal Flooding Hotspots for Highway Network Durability and Social Justice",
+    "metadescription": "AI, hydrodynamic models, and remote sensing map coastal flood hazards and social vulnerability to assess highway durability; Galveston, TX, is the testbed.",
+    "body": [
+      "This project addresses the impact of coastal flooding on highway networks, particularly in underserved communities, by developing an innovative framework that integrates social vulnerability and transportation durability into coastal risk assessments. Using AI algorithms, hydrodynamic simulations, and remote sensing, the research aims to create a high-resolution flood hazard mapping system, uncover social vulnerability, and develop a web-based tool for assessing highway network durability and flood risks. The outcomes will empower decision-makers to identify critical vulnerabilities and formulate equitable responses, with Galveston, TX, serving as a testbed for broader application across coastal regions worldwide."
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734525106/bwpkgb9vbzqusibhmckj.jpg",
+    "otherImg": [],
+    "date": "2024-11-11",
+    "period": "2024-2025",
+    "sponsors": "Department of Transportation (DOT)",
+    "collaborators": "Subasish Das (TXST)",
+    "badge": "Transportation"
+  },
+  {
+    "_id": "6762cd91674c470f7edb7573",
+    "title": "The Great Texas Freeze and its Impact on the Water and Environment",
+    "metadescription": "Quantifies 2021 Texas freeze impacts on agriculture and vegetation using remote sensing, field data, and climate modeling to inform resilient adaptation.",
+    "body": [
+      "The Great Texas Freeze of 2021 caused severe disruptions to water systems, agriculture, and the environment, including widespread pipe bursts, power outages, and water contamination. The extreme cold stressed ecosystems, led to significant agricultural losses, and exposed infrastructure vulnerabilities to extreme weather. This study examines the freeze's impact on agricultural activities and vegetation, providing insights into building resilience and adaptive strategies. ",
+      "As a pilot study, this project specifically evaluates the effects of the 2021 cold outbreak on agricultural productivity and vegetation health. Using a combination of remote sensing data, field observations, and climate modeling, we aim to quantify the extent of damage, identify regions most severely affected, and assess recovery patterns. The findings will contribute to the development of adaptive strategies and resilience-building measures to better prepare for future extreme weather events. Ultimately, this research seeks to inform policymakers, agricultural stakeholders, and environmental managers on how to mitigate risks and enhance the sustainability of critical systems in the face of a changing climate."
+    ],
+    "mainImage": "https://res.cloudinary.com/cholab/image/upload/v1734528400/bwjxan311btqm2ofejtn.jpg",
+    "otherImg": [],
+    "date": "2024-11-11",
+    "period": "2024-2025",
+    "sponsors": " TXST Center for Analytics and Data Science",
+    "collaborators": "",
+    "badge": "Hydrology"
+  }
+]

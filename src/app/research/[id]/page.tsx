@@ -14,10 +14,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${research?.title} | The Cho Lab`,
-    description: research?.body.join(" ").slice(0, 160),
+    description: research?.metadescription.slice(0, 160),
     openGraph: {
       title: `${research?.title} | The Cho Lab`,
-      description: research?.body.join(" ").slice(0, 160),
+      description: research?.metadescription.slice(0, 200),
       type: "article",
       url: `https://cholab.science/research/${id}`,
       images: [
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: `${research?.title} | The Cho Lab`,
-      description: research?.body.join(" ").slice(0, 160),
+      description: research?.metadescription.slice(0, 160),
       images: [research?.mainImage || "/StaticImages/BGRESEARCH.jpg"],
     },
     alternates: {

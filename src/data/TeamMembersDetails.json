@@ -6,7 +6,7 @@
     "desc": "Snowmelt-Groundwater Interactions for Improved Flood Prediction Using Land Surface Modeling and Data Assimilation",
     "email": "saemrnt@gmail.com",
     "linkedin": "https://www.linkedin.com/in/saemrnt/",
-    "img": "/images/team/EunsaemCho.png",
+    "img": "/images/team/EunsaemCho.jpg",
     "about": "Dr. Eunsaem Cho is a hydrologist whose research advances water resources management, hydroclimate extreme prediction, and resilient infrastructure design in a changing climate. Currently, his work focuses on understanding the influence of groundwater on snowmelt-driven floods through retrospective simulations with the Noah-MP land surface model in NASA’s Land Information System and GRACE/GRACE-FO data assimilation. He is currently a Postdoctoral Associate at the Hydrological Sciences Laboratory, NASA Goddard Space Flight Center, and at the Earth System Science Interdisciplinary Center, University of Maryland. Previously, he was a Postdoctoral Associate at Florida State University (2022–2024), focusing on compound flood risk assessment, and a Research Professor at Korea University (2020–2022), studying urban hydrology.",
     "order": 1,
     "awards": [
@@ -256,11 +256,11 @@
     "order": 8,
     "activities": [
       {
-        "desc": "Attended Training at *JICA’s Knowledge Co-Creation Program (KCCP)* on “Practical Methodology for Flood Control Planning and River Basin Management in Asia Region” (2022), Tsukuba, Ibaraki, Japan.",
+        "desc": "Presented as a *Guest lecturer for the course CE4370: Hydraulics* at Ingram School of Engineering, Texas State University",
         "link": ""
       },
       {
-        "desc": "Presented as a *Guest lecturer for the course CE4370: Hydraulics* at Ingram School of Engineering, Texas State University",
+        "desc": "Attended Training at *JICA’s Knowledge Co-Creation Program (KCCP)* on “Practical Methodology for Flood Control Planning and River Basin Management in Asia Region” (2022), Tsukuba, Ibaraki, Japan.",
         "link": ""
       }
     ],

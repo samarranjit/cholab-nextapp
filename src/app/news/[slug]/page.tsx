@@ -1,7 +1,47 @@
 import { NewsPost } from "@/utils/getNewsStoryMdx";
+import { Metadata } from "next";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const { frontmatter }: NewsPost = await import(
+    `@/data/NewsStories/${slug}.mdx`
+  );
+  const metadata = await Promise.resolve(frontmatter);
+  // console.log("frontmatter", metadata);
+  return {
+    title: `${metadata?.title} | The Cho Lab`,
+    description: metadata?.excerpt.slice(0, 160),
+    keywords: metadata?.tags,
+    openGraph: {
+      title: `${metadata?.title} | The Cho Lab`,
+      description: metadata?.excerpt.slice(0, 200),
+      type: "article",
+      url: `https://cholab.science/news/${slug}`,
+      images: [
+        {
+          url: metadata?.mainImage || "/StaticImages/BGRESEARCH.jpg",
+          width: 1200,
+          height: 630,
+          alt: metadata?.title || "Research Article",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${metadata?.title} | The Cho Lab`,
+      description: metadata?.excerpt.slice(0, 160),
+      images: [metadata?.mainImage || "/StaticImages/BGRESEARCH.jpg"],
+    },
+    alternates: {
+      canonical: `https://cholab.science/news/${slug}`,
+    },
+  };
 }
 
 export default async function NewsPostPage({ params }: PageProps) {

@@ -89,6 +89,7 @@ export interface ResearchProject {
   period: string;
   sponsors: string;
   collaborators: string;
+  metadescription: string;
 
 }
 
