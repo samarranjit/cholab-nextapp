@@ -257,11 +257,13 @@
     "activities": [
       {
         "desc": "Presented as a *Guest lecturer for the course CE4370: Hydraulics* at Ingram School of Engineering, Texas State University",
-        "link": ""
+        "link": "",
+        "label": "Teaching"
       },
       {
         "desc": "Attended Training at *JICA’s Knowledge Co-Creation Program (KCCP)* on “Practical Methodology for Flood Control Planning and River Basin Management in Asia Region” (2022), Tsukuba, Ibaraki, Japan.",
-        "link": ""
+        "link": "",
+        "label": "Training"
       }
     ],
     "about": "Momin is a water resources and transportation researcher whose work focuses on the impacts of coastal flooding on roadway networks and infrastructure resilience. He integrates hydrodynamic modeling, GIS, and traffic simulation to evaluate how extreme coastal flood events affect transportation systems. Momin earned his B.Sc. in Civil Engineering from the Bangladesh University of Engineering and Technology (BUET), one of the premier engineering institutions in South Asia, and went on to serve in the Bangladesh Water Development Board, where he designed hydraulic infrastructures, managed river basin projects, and implemented flood control and monitoring initiatives. At Texas State University, his research includes developing flood hazard maps for Galveston Island, simulating the 1-in-100 AEP flood event and Hurricane Ike 2008, and identifying vulnerable roadway segments using macroscopic traffic simulation, while also applying advanced machine learning and deep learning techniques—including LSTM, GRU, CNN-LSTM, and Transformer models—for forecasting sea water levels and assessing flood risk. Beyond the U.S., Momin has investigated riverbank line shifting along the Meghna River in Bhola Island, Bangladesh, and presented research on structural performance evaluation at the International Conference on Disaster Risk Mitigation (BUET-JIDPUS). His academic excellence has been recognized with awards, including second place at the TXST STEM Conference 2025 and the Graduate Merit Fellowship at Texas State University. Through his work, Momin aims to advance climate-resilient transportation planning by providing evidence-based solutions that strengthen roadway durability and promote equity in flood-prone coastal regions.",
