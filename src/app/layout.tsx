@@ -101,7 +101,7 @@ export default function RootLayout({
                 contactType: "Research Inquiries",
                 email: "eunsang.cho@txstate.edu",
               },
-              logo: "https://www.cholab.science/ChoLabLogo.png",
+              logo: "https://cholab.science/ChoLabLogo.png",
               sameAs: [
                 "https://www.linkedin.com/in/eunsang-cho-b455a8126/",
                 "https://www.researchgate.net/profile/Eunsang-Cho",

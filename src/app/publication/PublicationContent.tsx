@@ -143,7 +143,7 @@ function Publication() {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 ">
-                  In Revision / Preprint
+                  In Revision
                 </h2>
                 {/* <p className="text-gray-500 text-sm">
                   Papers currently under review
@@ -244,7 +244,7 @@ function Publication() {
               </div>
               <div className="">
                 <h2 className="text-2xl font-bold text-gray-900">
-                  Peer-reviewed Published Papers
+                  Peer-reviewed Papers
                 </h2>
                 {/* <p className="text-gray-500 text-sm">
                   Peer-reviewed research publications
