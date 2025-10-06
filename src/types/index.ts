@@ -20,11 +20,13 @@ export interface Activity {
   title?: string;
   desc?: string;
   link?: string;
+  label?: string;
 }
 
 export interface ConferencePaper {
   desc?: string;
   link?: string;
+  label?: string;
 }
 
 export interface MemberPublication{

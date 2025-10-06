@@ -190,10 +190,24 @@ function OtherMember() {
                                 (activity, index) => (
                                   <div
                                     key={`${selectedMember.id}-activity-${index}`}
-                                    className="group flex items-start gap-4 p-4 sm:p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-all duration-200 hover:shadow-sm border border-slate-100/50"
+                                    className={`relative group flex items-start gap-4 p-4 ${
+                                      activity?.label ? "pt-7" : ""
+                                    } sm:p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-all duration-200 hover:shadow-sm border border-slate-100/50`}
                                   >
+                                    {activity?.label && (
+                                      <span
+                                        className="absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-semibold text-primary"
+                                        style={{
+                                          backgroundColor:
+                                            "var(--color-tertiary, #fbbf24)",
+                                          zIndex: 10,
+                                        }}
+                                      >
+                                        {activity.label}
+                                      </span>
+                                    )}
                                     {/* Status indicator */}
-                                    <div className="w-2 h-2 bg-tertiary rounded-full flex-shrink-0 mt-2 group-hover:scale-110 transition-transform duration-200"></div>
+                                    <div className="w-2 h-2  bg-tertiary rounded-full flex-shrink-0 mt-2 group-hover:scale-110 transition-transform duration-200"></div>
 
                                     {/* Content container */}
                                     <div className="flex-1 min-w-0 space-y-3">

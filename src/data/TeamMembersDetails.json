@@ -291,13 +291,28 @@
     ],
     "ConferencePapers": [
       {
-        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Hydrodynamic Simulation of Coastal Flooding to Determine the Vulnerable Hotspots of Galveston, Texas. *12th TWRN Meeting 2025*, Austin, Texas."
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Assessing Roadway Network Risk to Compound Flooding in Galveston County, Texas: An Integrated Hydrodynamic and Machine Learning Approach, under review at the Transportation Research Board (TRB) 105th Annual Meeting (TRBAM 2026), Washington, D.C., USA.",
+        "label": "Presented"
       },
       {
-        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). High-Resolution Hydrodynamic Modeling for Coastal Flood Hazard Mapping for Galveston Island: Model Development and Validation. *2025 TXST STEM Conference*, San Marcos, Texas."
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Coastal Flooding on Transportation Infrastructures: A Systematic Review of Patterns, Impacts, and Methodologies, under review at the Transportation Research Board (TRB) 105th Annual Meeting (TRBAM 2026), Washington, D.C., USA.",
+        "label": "Presented"
       },
       {
-        "desc": "*Momin, M.S.M.I.*, Ahmed, M.Z. (2017). Performance Evaluation of RC Structure Using Pushover Analysis and Two Case Studies. *International Conference on Disaster Risk Mitigation 2017*, Dhaka, Bangladesh."
+        "desc": "*Momin, M.S.M.I.*, Valles, D., Cho, E. (2025). Forecasting Sea Water Level Using Deep Learning Models for Enhanced Coastal Flood Management and Mitigation, under review at the IEEE 16th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON 2025), New York, USA.",
+        "label": "Presented"
+      },
+      {
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Hydrodynamic Simulation of Coastal Flooding to Determine the Vulnerable Hotspots of Galveston, Texas. *12th TWRN Meeting 2025*, Austin, Texas.",
+        "label": "Under Review"
+      },
+      {
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). High-Resolution Hydrodynamic Modeling for Coastal Flood Hazard Mapping for Galveston Island: Model Development and Validation. *2025 TXST STEM Conference*, San Marcos, Texas.",
+        "label": "Under Review"
+      },
+      {
+        "desc": "*Momin, M.S.M.I.*, Ahmed, M.Z. (2017). Performance Evaluation of RC Structure Using Pushover Analysis and Two Case Studies. *International Conference on Disaster Risk Mitigation 2017*, Dhaka, Bangladesh.",
+        "label": "Under Review"
       }
     ]
   },
