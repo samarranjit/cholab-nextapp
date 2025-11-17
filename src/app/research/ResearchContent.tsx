@@ -27,8 +27,8 @@ function Research() {
         ) : (
           <div className="h-[90vh] lg:h-[90vh] relative overflow-hidden ">
             {/* Animated Background - Responsive */}
-            <div className="absolute inset-0 z-[-1] ">
-              <div
+            {/* <div className="absolute inset-0 z-[-1] "> */}
+            {/* <div
                 className="w-[300vw] h-[90vh] flex"
                 style={{
                   animation: "slideAcrossRepeat 120s linear infinite",
@@ -70,33 +70,41 @@ function Research() {
                     userSelect: "none",
                   }}
                 />
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
 
             {/* Hero Content - Fully Responsive */}
-            <div className="relative z-10 w-full h-full flex items-center justify-center px-4 sm:px-6 md:justify-start md:pl-[5%] lg:pl-[10%] xl:pl-[15%]">
-              <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl p-4 sm:p-6 md:p-8 lg:p-10 bg-secondary/65 backdrop-blur-sm">
-                <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-tertiary font-semibold mb-3 md:mb-4">
-                  Our Research
-                </p>
-                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-4 md:mb-6 leading-tight">
-                  Hydrology and Water Resources in a Changing Climate for a
-                  Sustainable Environment
-                </h1>
-                <p className="text-sm sm:text-base md:text-lg text-primary leading-relaxed">
-                  We are building a dynamic team of undergraduate and graduate
-                  students and postdocs who share our passion to better
-                  understand hydrology and water resources in a changing climate
-                  for a sustainable environment. To achieve this, we use field
-                  observations from station data and field campaign, multiple
-                  remote sensing techniques, land surface hydrologic models, and
-                  climate models along with big-data and machine learning (ML)
-                  techniques.
-                </p>
+
+            <div
+              style={{
+                backgroundImage: `url(/StaticImages/researchPageImg.jpg)`,
+              }}
+              className="h-[90vh] md:h-[90vh] overflow-hidden bg-scroll bg-center md:bg-fixed md:bg-right bg-cover -mb-2"
+            >
+              <div className="relative w-full h-full flex items-center justify-center px-4 sm:px-6 md:justify-start md:pl-[5%] lg:pl-[10%] xl:pl-[15%]">
+                <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl p-4 sm:p-6 md:p-8 lg:p-10 bg-secondary/65 backdrop-blur-sm">
+                  <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-tertiary font-semibold mb-3 md:mb-4">
+                    Our Research
+                  </p>
+                  <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-4 md:mb-6 leading-tight">
+                    Hydrology and Water Resources in a Changing Climate for a
+                    Sustainable Environment
+                  </h1>
+                  <p className="text-sm sm:text-base md:text-lg text-primary leading-relaxed">
+                    We are building a dynamic team of undergraduate and graduate
+                    students and postdocs who share our passion to better
+                    understand hydrology and water resources in a changing
+                    climate for a sustainable environment. To achieve this, we
+                    use field observations from station data and field campaign,
+                    multiple remote sensing techniques, land surface hydrologic
+                    models, and climate models along with big-data and machine
+                    learning (ML) techniques.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <style jsx>{`
+            {/* <style jsx>{`
               @keyframes slideAcrossRepeat {
                 0% {
                   transform: translateX(-66.666%);
@@ -105,7 +113,7 @@ function Research() {
                   transform: translateX(0%);
                 }
               }
-            `}</style>
+            `}</style> */}
           </div>
         )}
       </div>
