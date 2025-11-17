@@ -9,7 +9,7 @@ import ResearchCard from "./ResearchCard";
 import { FaSatelliteDish } from "react-icons/fa";
 import { ResearchCardData } from "@/types";
 import { useResearchPosts } from "@/hooks/useResearchesPosts";
-import Image from "next/image";
+// import Image from "next/image";
 
 function Research() {
   // const { showLoading }: AppContextType = useContext(allContexts);
