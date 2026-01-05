@@ -25,6 +25,8 @@ export default async function Blogs() {
             </h1>
           </div>
 
+          <div className="container m-auto">
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 pt-5">
             {resolvedPosts &&
               resolvedPosts?.map((post) => {
@@ -66,6 +68,8 @@ export default async function Blogs() {
                 );
               })}
           </div>
+          </div>
+
         </div>
         <FooterSection />
       </div>
