@@ -52,6 +52,10 @@
     ],
     "activities": [
       {
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
+      {
         "desc": "*2025 Land Modeling Workshop,* Austin, Texas, USA."
       },
       {
@@ -119,6 +123,10 @@
     "about": "Annelise’s research interests include remote sensing, hydrology, human-environmental impacts, and social justice. Currently her work in the Cho Lab utilizes remote sensing and machine learning to predict crop yield using a specialized database from the U.S. Department of Agriculture’s Beltsville Agricultural Research Center. She is currently working on her M.S. in Geography at Texas State University, where she also attended undergraduate studies in Geography Resource Use and Environmental Studies. When she’s not in the lab, she likes to represent the university on the swim club and in choir.",
     "activities": [
       {
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
+      {
         "desc": "*2024 ASA, CSA, SSSA (CANVAS) Conference*, San Antonio, TX, USA"
       }
     ],
@@ -175,8 +183,13 @@
     ],
     "publications": [],
     "activities": [
+
       {
-        "desc": "*CUAHSI Snow School (2025)*, Mammoth Lakes, CA"
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
+      {
+        "desc": "*2025 Eastern Snow Conference,* Syracuse, New York, USA."
       },
       {
         "desc": "*R workshop (2024)*, San Marcos, Texas"
@@ -208,6 +221,19 @@
     "order": 6,
     "about": "Jipeng is a Master’s student in Civil Engineering at Texas State University. His research bridges hydrology, remote sensing, and UAV-based geospatial technologies, with a focus on improving snow depth and soil moisture measurements. His current projects include evaluating the accuracy of airborne LiDAR for snow depth estimation in boreal forests using NASA SnowEx 2023 data and developing UAV-mounted gamma-ray spectroscopy approaches for soil moisture monitoring. He also holds a Part 107 FAA Remote Pilot Certificate, which supports his expertise in UAV-based environmental observation. Beyond research, he serves as a Graduate Instructional Assistant for the Ingram School of Engineering, assisting in Fluid Mechanics courses. In addition to his academic pursuits, Jipeng is the President of the Chinese Students and Scholars Association at Texas State University, where he leads cultural, academic, and community-building initiatives. He earned his Bachelor’s degree in Hydrology and Water Resources Engineering from Shandong Agricultural University (2020–2024). He also enjoys teaching, collaborating with peers in the Journal Club, and engaging with innovative applications of UAV technology in water resources science.",
     "activities": [
+
+      {
+        "desc": "Attended the *CUAHSI Snow School (2025)*, Mammoth Lakes, CA",
+        "link": "/news/JipengAtSnowSchool"
+      },
+      {
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
+      {
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
       {
         "desc": "Contributed to *DOE Funded Summer Camp 2025*, San Marcos, TX, USA.",
         "link": "/news/DOESummerCamp2025"
@@ -234,6 +260,10 @@
     "order": 7,
     "activities": [
       {
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
+      {
         "desc": "Contributed to *DOE Funded Summer Camp 2025*, San Marcos, TX, USA.",
         "link": "/news/DOESummerCamp2025"
       },
@@ -255,6 +285,10 @@
     "img": "/images/team/Moomin.png",
     "order": 8,
     "activities": [
+      {
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
       {
         "desc": "Presented as a *Guest lecturer for the course CE4370: Hydraulics* at Ingram School of Engineering, Texas State University",
         "link": "",
@@ -330,6 +364,10 @@
     "publications": [],
     "activities": [
       {
+        "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
+        "link": "/news/CholabAtAGU2025"
+      },
+      {
         "desc": "Participated in the *TXST Stem Conference 2025*, San Marcos, TX, USA.",
         "link": "/news/TxstStemConference2025"
       }
@@ -346,7 +384,12 @@
     "img": "/images/team/HrishantSharma.png",
     "order": 11,
     "about": "Hrishant is an undergraduate majoring in Computer Science at Texas State University. His work focuses on machine-learning–based streamflow prediction across short- to sub-seasonal lead times. He builds end-to-end data workflows that combine Python data processing with remote-sensing features to produce reliable, reproducible pipelines for hydrology applications. On the modeling side, Hrishant evaluates LSTM, CNN-LSTM, and Transformer architectures, integrating hydro-meteorological inputs such as precipitation, temperature, snow metrics, and historical flow. He is also developing skills in cloud platforms and data-engineering practices to support scalable training and deployment. Passionate about data quality, he specializes in preprocessing, cleaning, and managing large datasets to ensure robust, interpretable results. Looking ahead, he aims to build cloud-ready data systems that translate research models into practical decision support for water-resources management. He is eager to keep learning and to deepen his data-engineering and research skill set.",
-    "publications": []
+    "publications": [],
+    "awards":[
+      {
+        
+      }
+    ]
   },
   {
     "_id": "6872846b39fe8fb737d3a5ea",
