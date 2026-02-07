@@ -97,7 +97,13 @@
     "order": 2,
     "__v": 0,
     "about": "Harisankar’s research interests include the climate implications associated with land surface processes, the use of remote sensing for snow estimation, and snowmelt-driven floods. He worked as a GIS analyst at Apple via Artech Information Systems LLC, where he improved the Apple Maps Product Automation through geospatial data analysis and quality control – quality assurance. Prior to his industrial experience, Harisankar completed his master's degree in geological sciences from the University of Texas at Austin, where he investigated whether climate alterations are more or less able to support the sustenance of Congo rainforests. He earned his integrated master’s degree in applied geology from Pondicherry University, India, where he studied the lithological control on weathering and gained experience in geological fieldwork, as well as geochemical analysis of soil, sediment, and rock specimens. Besides his career interests, Harisankar is an avid music listener; he enjoys playing the violin, photography, and exploring nature.",
-    "publications": []
+    "publications": [],
+    "activities": [
+      {
+        "desc": "Attended and presented at *AMS 2026*, Houston, Texas, USA.",
+        "link": "/news/CholabAtAMS2026"
+      }
+    ]
   },
   {
     "_id": "68ae8184cb630c29e1ab71c9",
@@ -109,7 +115,13 @@
     "img": "/images/team/Kathleen_Headshot.png",
     "order": 3,
     "about": "Kathleen’s research focuses on the intersection of climate and hydrology as climate stressors influence water quality and contaminant behavior (i.e., PFAS). She hopes to tailor her research based on her previous experience in sea level rise, coastal forest ecology, and water quality. Kathleen is passionate about the environment and climate adaptation in communities with lower adaptive capacity to climate change. She hopes her research can help communities better prepare for future climate stressors and increase awareness of the public health impacts of climate change. Prior to graduate school, Kathleen worked at the U.S. Environmental Protection Agency’s Office of Research and Development, where she researched coastal wetland inundation with future sea level rise in the U.S. and its island territories, focusing on mangrove forests and saltwater marshes. Kathleen completed her undergraduate degree from Penn State University in Earth Science and Policy, concentrating her studies in climate change. When she is not deep in her research, Kathleen enjoys hiking, painting, and live music.",
-    "publications": []
+    "publications": [],
+    "activities": [
+      {
+        "desc": "Attended and presented at *AMS 2026*, Houston, Texas, USA.",
+        "link": "/news/CholabAtAMS2026"
+      }
+    ]
   },
   {
     "id": "67376f1a1955b4dd5315c4a1",
@@ -385,9 +397,16 @@
     "order": 11,
     "about": "Hrishant is an undergraduate majoring in Computer Science at Texas State University. His work focuses on machine-learning–based streamflow prediction across short- to sub-seasonal lead times. He builds end-to-end data workflows that combine Python data processing with remote-sensing features to produce reliable, reproducible pipelines for hydrology applications. On the modeling side, Hrishant evaluates LSTM, CNN-LSTM, and Transformer architectures, integrating hydro-meteorological inputs such as precipitation, temperature, snow metrics, and historical flow. He is also developing skills in cloud platforms and data-engineering practices to support scalable training and deployment. Passionate about data quality, he specializes in preprocessing, cleaning, and managing large datasets to ensure robust, interpretable results. Looking ahead, he aims to build cloud-ready data systems that translate research models into practical decision support for water-resources management. He is eager to keep learning and to deepen his data-engineering and research skill set.",
     "publications": [],
+    "activities": [
+      {
+        "desc": "Attended and presented at *AMS 2026*, Houston, Texas, USA.",
+        "link": "/news/CholabAtAMS2026"
+      }
+    ],
     "awards":[
       {
-        
+        "desc": "*Undergraduate Research Fellowship* (2025, Texas State University) ",
+        "link": "/news/Hrishant_Sharma_awarded_URF"
       }
     ]
   },
