@@ -191,7 +191,8 @@ function OtherMember() {
                                   <div
                                     key={`${selectedMember.id}-activity-${index}`}
                                     className={`relative group flex items-start gap-4 p-4 ${
-                                      activity?.label ? "pt-7" : ""
+                                      activity?.label ? "md:pt-[3rem]" :
+                                        ""
                                     } sm:p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-all duration-200 hover:shadow-sm border border-slate-100/50`}
                                   >
                                     {activity?.label && (
