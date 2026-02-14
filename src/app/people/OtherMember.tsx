@@ -284,13 +284,28 @@ function OtherMember() {
                       {/* Publications */}
                       {(selectedMember?.publications?.length ?? 0) > 0 && (
                         <div className="space-y-4">
-                          <p className="font-semibold">Published Papers:</p>
+                          <p className="font-semibold text-lg">Publications:</p>
                           {selectedMember?.publications?.map(
                             (publication, index) => (
                               <div
                                 key={`${selectedMember.id}-publication-${index}`}
-                                className="flex items-start gap-3 p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
+                                className={`flex items-start gap-3 p-4 ${
+                                      publication?.label ? "pt-[3rem] md:pt-[3.5rem]" :
+                                        ""
+                                    } bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors relative`}
                               >
+                                {publication?.label && (
+                                      <span
+                                        className="absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-semibold text-primary"
+                                        style={{
+                                          backgroundColor:
+                                            "var(--color-tertiary, #fbbf24)",
+                                          zIndex: 10,
+                                        }}
+                                      >
+                                        {publication.label}
+                                      </span>
+                                    )}
                                 <div className="w-2 h-2 bg-tertiary rounded-full mt-2 flex-shrink-0"></div>
                                 <div className="flex-1">
                                   <p className="text-slate-700 leading-relaxed text-sm md:text-base">
@@ -325,7 +340,10 @@ function OtherMember() {
                             )
                           )}
                         </div>
-                      )}
+                        )}
+                        
+                        
+
                       {/* Conference Papers */}
                       {(selectedMember?.ConferencePapers?.length ?? 0) > 0 && (
                         <div className="space-y-4">

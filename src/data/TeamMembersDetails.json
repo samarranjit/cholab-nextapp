@@ -35,19 +35,23 @@
     "publications": [
       {
         "desc": "*Eunsaem Cho*, Ebrahim Ahmadisharaf, Gabriele Villarini, Amir AghaKouchak (2025). Historical changes in overtopping probability of dams in the United States, *Nature Communication*, 16(1), 6693.",
-        "link": "https://www.nature.com/articles/s41467-025-59536-1"
+        "link": "https://www.nature.com/articles/s41467-025-59536-1",
+        "label": "Published"
       },
       {
         "desc": "*Eunsaem Cho*, Ebrahim Ahmadisharaf, Amin Ahmadisharaf, Reza Nematirad, Amir AghaKouchak (2024). Unraveling the Relationships between Trend of Dam Inflows, Hydrometeorological Variables and Vegetation in West and Southwest United States. *Journal of Hydrometeorology*, 25(12), 1793-1808.",
-        "link": "https://doi.org/10.1175/JHM-D-23-0217.1"
+        "link": "https://doi.org/10.1175/JHM-D-23-0217.1",
+         "label": "Published"
       },
       {
         "desc": "*Eunsaem Cho*, Ebrahim Ahmadisharaf, James Done, Chulsang Yoo (2023). A multivariate frequency analysis framework to estimate the return period of hurricane events using event-based copula. *Water Resources Research*, 59(12), e2023WR034786.",
-        "link": "https://doi.org/10.1029/2023WR034786"
+        "link": "https://doi.org/10.1029/2023WR034786",
+        "label": "Published"
       },
       {
         "desc": "*Eunsaem Cho*, Chulsang Yoo, Minseok Kang, Sung-uk Song, Soeun Kim (2020). Experiment of Wind-Driven-Rain Measurement on Building Walls and Its In-situ Validation, *Building and Environment*, 185, 107269.",
-        "link": "https://doi.org/10.1016/j.buildenv.2020.107269"
+        "link": "https://doi.org/10.1016/j.buildenv.2020.107269",
+        "label": "Published"
       }
     ],
     "activities": [
@@ -298,6 +302,10 @@
     "order": 8,
     "activities": [
       {
+        "desc": "Attended and presented at *TRB Meeting 2026*, Washington, D.C., USA.",
+        "link": "/news"
+      },
+      {
         "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
         "link": "/news/CholabAtAGU2025"
       },
@@ -313,10 +321,25 @@
       }
     ],
     "about": "Momin is a water resources and transportation researcher whose work focuses on the impacts of coastal flooding on roadway networks and infrastructure resilience. He integrates hydrodynamic modeling, GIS, and traffic simulation to evaluate how extreme coastal flood events affect transportation systems. Momin earned his B.Sc. in Civil Engineering from the Bangladesh University of Engineering and Technology (BUET), one of the premier engineering institutions in South Asia, and went on to serve in the Bangladesh Water Development Board, where he designed hydraulic infrastructures, managed river basin projects, and implemented flood control and monitoring initiatives. At Texas State University, his research includes developing flood hazard maps for Galveston Island, simulating the 1-in-100 AEP flood event and Hurricane Ike 2008, and identifying vulnerable roadway segments using macroscopic traffic simulation, while also applying advanced machine learning and deep learning techniques—including LSTM, GRU, CNN-LSTM, and Transformer models—for forecasting sea water levels and assessing flood risk. Beyond the U.S., Momin has investigated riverbank line shifting along the Meghna River in Bhola Island, Bangladesh, and presented research on structural performance evaluation at the International Conference on Disaster Risk Mitigation (BUET-JIDPUS). His academic excellence has been recognized with awards, including second place at the TXST STEM Conference 2025 and the Graduate Merit Fellowship at Texas State University. Through his work, Momin aims to advance climate-resilient transportation planning by providing evidence-based solutions that strengthen roadway durability and promote equity in flood-prone coastal regions.",
-    "publications": [],
+    "publications": [
+      {
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Coastal Flooding on Transportation Infrastructures: A Systematic Review of Patterns, Impacts, and Methodologies, under review at the *Transportation Research Record*.",
+        "label": "Under Review"
+      }
+    ],
     "awards": [
       {
-        "desc": "*2nd Place in the TXST STEM Conference 2025*, TX, USA.",
+        "desc": "*Three Minute Thesis (3MT) Finalist*, Texas State University - 2025",
+        "link": "https://www.gradcollege.txst.edu/events/research/3mt/finalists.html"
+      },
+      {
+        "desc": "*Member* - The Honor Society of Phi Kappa Phi- 2025."
+      },
+      {
+        "desc": "*Member* - Alpha Chi National College Honor Society, 2025."
+      },
+      {
+        "desc": "*2nd Place* - in the TXST STEM Conference 2025, TX, USA.",
         "link": "https://www.cose.txst.edu/cose-news/news-2025/stem-conference-student-poster-presentations.html"
       },
       {
@@ -337,15 +360,19 @@
     ],
     "ConferencePapers": [
       {
-        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Assessing Roadway Network Risk to Compound Flooding in Galveston County, Texas: An Integrated Hydrodynamic and Machine Learning Approach, under review at the Transportation Research Board (TRB) 105th Annual Meeting (TRBAM 2026), Washington, D.C., USA.",
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Assessing Roadway Network Risk to Compound Flooding in Galveston County, Texas: An Integrated Hydrodynamic and Machine Learning Approach, under review at the *Transportation Research Board (TRB) 105th Annual Meeting (TRBAM 2026)*, Washington, D.C., USA.",
         "label": "Presented"
       },
       {
-        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Coastal Flooding on Transportation Infrastructures: A Systematic Review of Patterns, Impacts, and Methodologies, under review at the Transportation Research Board (TRB) 105th Annual Meeting (TRBAM 2026), Washington, D.C., USA.",
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Coastal Flooding on Transportation Infrastructures: A Systematic Review of Patterns, Impacts, and Methodologies, under review at the *Transportation Research Board (TRB) 105th Annual Meeting (TRBAM 2026)*, Washington, D.C., USA.",
         "label": "Presented"
       },
       {
-        "desc": "*Momin, M.S.M.I.*, Valles, D., Cho, E. (2025). Forecasting Sea Water Level Using Deep Learning Models for Enhanced Coastal Flood Management and Mitigation, under review at the IEEE 16th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON 2025), New York, USA.",
+        "desc": "*Momin, M.S.M.I.*, Cho, E., Cho, E., Das, S. (2025). Hydrodynamic Simulation and Validation of Coastal Flooding in Galveston County, Texas: 2008 Hurricane Ike Case Study and 100-Year Flood Map Development, at the *American Geophysical Union (AGU) 2025*, New Orleans, Louisiana, USA. ",
+        "label": "Presented"
+      },
+      {
+        "desc": "*Momin, M.S.M.I.*, Valles, D., Cho, E. (2025). Forecasting Sea Water Level Using Deep Learning Models for Enhanced Coastal Flood Management and Mitigation, under review at the *IEEE 16th Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON 2025)*, New York, USA.",
         "label": "Presented"
       },
       {

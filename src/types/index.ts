@@ -31,7 +31,8 @@ export interface ConferencePaper {
 
 export interface MemberPublication{
     desc?: string;
-    link?: string;
+  link?: string;
+  label?: string;
   }
 
 export interface TeamMember {
