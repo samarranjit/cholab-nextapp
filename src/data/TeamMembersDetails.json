@@ -74,6 +74,10 @@
     ],
     "ConferencePapers": [
       {
+        "desc": "*Cho, E.*, Cho, E., Li, B., Vuyovich, C., & Jacobs, J. M. (2025). Improved Snowmelt Flood Simulation through GRACE/GRACE-FO Data Assimilation in Noah-MP. Presented at the AGU Fall Meeting 2025, New Orleans, LA, USA.",
+        "link"  : "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1937762"
+      },
+      {
         "desc": "*Cho, E.*, Cho, E., Vuyovich, C., Li, B., Jacobs, J. (2025). Evaluation of the Noah-MP Land Surface Model for Snowmelt-Driven Flood Generation: Guidelines for Selecting Parameterization Schemes, *2025 Eastern Snow Conference*, Syracuse, New York,"
       },
       {
@@ -107,6 +111,11 @@
         "desc": "Attended and presented at *AMS 2026*, Houston, Texas, USA.",
         "link": "/news/CholabAtAMS2026"
       }
+    ],
+    "ConferencePapers": [
+      {
+        "desc": "*Manoj, H.*, Cho, E., Li, B., Vuyovich, C., Jacobs, J. M., & Cho, E. (2026). Testing the Effect of GRACE Data Assimilation on the Spring Flood Simulations in the Red River of the North Basin. Poster presented at the *AMS Annual Meeting 2026*, Houston, TX, USA."
+      }
     ]
   },
   {
@@ -124,6 +133,11 @@
       {
         "desc": "Attended and presented at *AMS 2026*, Houston, Texas, USA.",
         "link": "/news/CholabAtAMS2026"
+      }
+    ],
+    "ConferencePapers": [
+      {
+        "desc": "*Shank, K. I.*, Cho, E., & Hwang, S. S. (2026). Identifying PFAS Hotspots Influenced by Hydrologic and Climatic Stressors Using Remote Sensing and Geospatial Analysis. Poster presented at the *AMS Annual Meeting 2026*, Houston, TX, USA."
       }
     ]
   },
@@ -165,6 +179,10 @@
     ],
     "publications": [],
     "ConferencePapers": [
+      {
+        "desc": "*Holguin, A.*, Cho, E., Kraatz, S., Chang, J., Anderson, M., Gao, F., Johnson, D., Zhao, H., & Cirone, R. (2025). Machine Learning-Based Sub-Field Crop Yield Prediction Using Google Earth Engine and Satellite Remote Sensing Data. Poster presented at the *AGU Fall Meeting 2025*, New Orleans, LA, USA",
+        "link" : "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1920876"
+      },
       {
         "desc": "*Holguin, A.*, Cho, E., Kraatz, S., Johnson, D., Chang, J. (2025). Machine Learning-Based Sub-Field Crop Yield Prediction using Google Earth Engine and Satellite Remote Sensing Data, *Texas State University STEM Conference*, San Marcos, USA"
       },
@@ -212,6 +230,10 @@
       }
     ],
     "ConferencePapers": [
+      {
+        "desc": "*Cooverji, F.*, Cho, E., Li, B., Vuyovich, C., Jacobs, J. M., Cho, E., Tuttle, S. E., & Sproles, E. A. (2025). Quantifying Snowmelt Contribution to Streamflow and Water Balance Uncertainties in a Snow-Dominated Watershed Using WLDAS and Multi-Source Datasets. Poster presented at the *AGU Fall Meeting 2025*, New Orleans, LA, USA.",
+        "link": "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1962526"
+      },
       {
         "desc": "*Cooverji, F.*, Cho, E., Li, B., Vuyovich, C., Jacobs, j., Cho, E., Tuttle, S., Sproles, E. (2025). Quantification Of Snowmelt-induced Streamflow Within The Smith River Watershed, Montana, Using A Water Balance Analysis. *2025 Eastern Snow Conference*, Syracuse, New York."
       },
@@ -263,7 +285,13 @@
         "link": "/news/TxstStemConference2025"
       }
     ],
-    "publications": []
+    "publications": [],
+    "ConferencePapers": [
+      {
+        "desc": "*Liu, J.*, Cho, E., & Vuyovich, C. (2025). Evaluating Airborne LiDAR Snow Depth Accuracy and Its Drivers in Boreal Forests: Evidence from NASA's 2023 SnowEx Campaign in Alaska. Poster presented at the *AGU Fall Meeting 2025*, New Orleans, LA, USA.",
+        "link": "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1935894"
+      }
+    ]
   },
   {
     "id": "676052dedbdbbed77acf55b7",
@@ -274,6 +302,7 @@
     "linkedin": "",
     "img": "/images/team/HimmatBasnet.png",
     "order": 7,
+    "about" : " ",
     "activities": [
       {
         "desc": "Attended and presented at *AGU 2025*, New Orleans, Louisiana, USA.",
@@ -288,8 +317,13 @@
         "link": "/news/TxstStemConference2025"
       }
     ],
-    "about": "",
-    "publications": []
+    "publications": [],
+    "ConferencePapers":[
+      {
+        "desc" : "*Basnet, H.*, Cho, E., & Hwang, S. (2025). Hydrological Controls on PFOS Transport in the San Antonio River Watershed Using SWAT+. Poster presented at the *AGU Fall Meeting 2025*, New Orleans, LA, USA.",
+        "link": "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1937523"
+      }
+    ]
   },
   {
     "id": "676053ccdbdbbed77acf55b9",
@@ -401,7 +435,7 @@
     "order": 10,
     "awards": [
       {
-        "desc": "President's List Honoree (Fall 2024; Spring, Fall 2025, Texas State University)",
+        "desc": "*President's List Honoree* (Fall 2024; Spring, Fall 2025, Texas State University)",
         "link": "https://meritpages.com/samarranjit"
       }
     ],
@@ -448,6 +482,11 @@
       {
         "desc": "*Undergraduate Research Fellowship* (2025, Texas State University) ",
         "link": "/news/Hrishant_Sharma_awarded_URF"
+      }
+    ],
+    "ConferencePapers": [
+      {
+        "desc": "*Sharma, H. S.*, Cho, E., & Kim, H. (2026). The Role of Snow Information in Deep Learning for Sub-Seasonal Streamflow Forecasting. Poster presented at the *AMS Annual Meeting 2026*, Houston, TX, USA."
       }
     ]
   },
