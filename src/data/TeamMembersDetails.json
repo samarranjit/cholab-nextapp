@@ -399,7 +399,12 @@
     "img": "/images/team/SamarRanjit.png",
     "about": "Samar Ranjit is an undergraduate student at Texas State University with a strong interest in data science, remote sensing, and the ways technology can be applied to environmental research. He is particularly drawn to how geospatial tools and advanced analytics can be used to study natural systems and address issues such as food security and climate resilience. At the Cho Lab, his work centers on analyzing crop yield dynamics, where he studies spatial patterns, detects yield breakpoints, and evaluates edge effects across agricultural fields to better understand yield stability over time. Beyond this research, Samar is actively developing his knowledge in artificial intelligence and machine learning, fields he sees as offering vast opportunities for solving complex, real-world problems. He approaches his academic and professional journey as one of continuous learning, always looking to build new skills and improve as a researcher. In the long term, his goal is to integrate computer science and Earth sciences, creating innovative tools and approaches that can advance sustainable agriculture and contribute to broader environmental solutions.",
     "order": 10,
-    "awards": [],
+    "awards": [
+      {
+        "desc": "President's List Honoree (Fall 2024; Spring, Fall 2025, Texas State University)",
+        "link": "https://meritpages.com/samarranjit"
+      }
+    ],
     "publications": [],
     "activities": [
       {
