@@ -411,7 +411,16 @@
         "link": "/news/TxstStemConference2025"
       }
     ],
-    "ConferencePapers": []
+    "ConferencePapers": [
+      {
+        "desc": "*Ranjit, S.*, Cho, E., Kraatz, S., Holguin, A., Chang, J., Gao, F., Anderson, M., Johnson, D., Zhao, H., & Cirone, R. (2026). Edge Effects on Intra-Field Crop Yield Variability. Poster presented at the *AGU-2026*, New Orleans, LA, USA.",
+        "link"  : "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1931841"
+      },
+      {
+        "desc": "*Ranjit, S.*, Cho, E., Kraatz, S. (2026). Analyzing Spatial Crop Yield Variability Using Geospatial Data Analysis. Poster presented at the *TXST STEM Conference- 2025*, San Marcos, TX, USA.",
+        "link"  : "https://doi.org/10.5281/zenodo.18727567"
+      }
+    ]
   },
   {
     "_id": "687283c539fe8fb737d3a5e8",
