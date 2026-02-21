@@ -118,7 +118,7 @@ function OtherMember() {
                   },
                   {
                     key: "publications",
-                    label: "Publications and Papers",
+                    label: "Publications and Conferences",
                     icon: "📄",
                   },
                   {
@@ -275,7 +275,7 @@ function OtherMember() {
               {activeSection === "publications" && (
                 <div className="max-h-[50vh] md:h-[40vh] overflow-y-auto">
                   <p className="text-slate-700 leading-relaxed text-lg py-2  md:text-lg mb-0 font-semibold text-center md:hidden">
-                    Publications and Papers:
+                    Publications and Conferences:
                   </p>
                   {selectedMember &&
                   ((selectedMember?.publications?.length ?? 0) > 0 ||
@@ -348,7 +348,7 @@ function OtherMember() {
                       {(selectedMember?.ConferencePapers?.length ?? 0) > 0 && (
                         <div className="space-y-4">
                           <p className="font-semibold text-lg">
-                            Conference Proceedings:
+                            Conference Presentations:
                           </p>
                           {selectedMember?.ConferencePapers?.map(
                             (paper, index) => (

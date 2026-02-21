@@ -73,7 +73,7 @@ export interface PublicationItem {
   _id: string;
   title: string;
   details: string;
-  link: string;
+  link?: string;
   imgUrl: string;
   date: string;
   status: string;
