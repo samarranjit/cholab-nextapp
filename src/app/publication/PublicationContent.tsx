@@ -165,7 +165,7 @@ function Publication() {
                         sequence={item.publication_sequence}
                         title={item.title}
                         details={item.details}
-                        link={item.link}
+                        link={item?.link}
                         imgUrl={item.imgUrl}
                         doi={item.doi}
                       />

@@ -6,7 +6,7 @@ import Image from "next/image";
 interface PublicationCardProps {
   title: string;
   details: string;
-  link: string;
+  link?: string;
   imgUrl: string;
   sequence?: number;
   doi?: string; // Add DOI as optional prop
@@ -81,7 +81,7 @@ export default function PublicationCard({
       {/* Altmetric badges positioned over image */}
 
       <Link
-        href={link}
+        href={link ? link : "#"}
         target="_blank"
         rel="noreferrer"
         className="block h-full"
