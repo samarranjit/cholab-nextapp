@@ -143,7 +143,7 @@ function Publication() {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 ">
-                  In Revision
+                  Under Review/ In Revision
                 </h2>
                 {/* <p className="text-gray-500 text-sm">
                   Papers currently under review
