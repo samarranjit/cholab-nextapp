@@ -254,7 +254,7 @@ export default function PublicationCard({
               {/* Under Review button */}
               <div className="flex justify-center">
               <div className="inline-flex items-center gap-2 px-4 py-5 border-none font-semibold hover:bg-gray-100 text-gray-500 text-sm font-medium rounded-lg transition-all duration-300 cursor-wait">
-                <span className="font-semibold">Under Review</span>
+                <span className="font-semibold text-tertiary">Under Review</span>
               </div>
               </div>
             </div>
