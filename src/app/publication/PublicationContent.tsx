@@ -168,6 +168,7 @@ function Publication() {
                         link={item?.link}
                         imgUrl={item.imgUrl}
                         doi={item.doi}
+                        abstract={item?.abstract}
                       />
                     ))}
                   </div>
@@ -215,7 +216,7 @@ function Publication() {
                   reviewDisplayedCount > 5 &&
                   reviewTotalCount > 5 && (
                     <div className="text-center text-gray-500 mt-6 p-3 bg-gray-50 rounded-lg text-sm">
-                      All review papers loaded ({reviewTotalCount} total)
+                      All papers under review loaded ({reviewTotalCount} total)
                     </div>
                   )}
               </>
@@ -244,7 +245,7 @@ function Publication() {
               </div>
               <div className="">
                 <h2 className="text-2xl font-bold text-gray-900">
-                  Peer-reviewed Papers
+                  Published/Accepted
                 </h2>
                 {/* <p className="text-gray-500 text-sm">
                   Peer-reviewed research publications

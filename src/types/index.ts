@@ -79,6 +79,7 @@ export interface PublicationItem {
   status: string;
   publication_sequence?: number;
   journal?: string;
+  abstract?: string;
   doi?: string; 
 }
 
