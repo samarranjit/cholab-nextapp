@@ -25,7 +25,7 @@ export default function MemberCard({
   setIsModalOpen,
 }: MemberCardProps) {
   return (
-    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[400px] md:h-[480px]">
+    <div id={name.split(" ").join("-").toLowerCase()} className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[400px] md:h-[480px]">
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
 
