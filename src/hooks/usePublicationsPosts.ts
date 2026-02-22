@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from 'react';
 import PublicationsPosts from '@/data/PublicationsPosts.json';
 import { PublicationItem } from '@/types/index';
 
-const ITEMS_PER_PAGE = 5;
+const ITEMS_PER_PAGE = 6;
 
 interface PaginatedData {
   data: PublicationItem[];
