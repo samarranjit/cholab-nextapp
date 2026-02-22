@@ -25,11 +25,11 @@ export default function MemberCard({
   setIsModalOpen,
 }: MemberCardProps) {
   return (
-    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[400px] md:h-[520px]">
+    <div className="group bg-[#005B96] relative overflow-hidden rounded-xl border border-white/10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 mx-auto max-w-sm w-full h-[400px] md:h-[480px]">
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
 
-      <div className="relative p-4 md:p-8 flex flex-col items-center text-center h-full justify-between">
+      <div className="relative p-4 md:px-5 flex flex-col items-center text-center h-full justify-between">
         {/* Profile Image with improved styling */}
         <div className="relative mb-6">
           <div className="w-32 h-32 md:w-40 md:h-40  rounded-full overflow-hidden border-4 border-white/20 shadow-xl group-hover:scale-105 transition-transform duration-300">
@@ -61,7 +61,7 @@ export default function MemberCard({
           </div>
 
           {/* Description with fixed height and scrolling */}
-          <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/20 px-2 mb-4 min-h-[100px] max-h-[140px]">
+          <div className="flex-1 overflow-y-hidden scrollbar-none scrollbar-track-transparent scrollbar-thumb-white/20 px-2 mb-2 max-h-[140px]">
             <p className="text-primary/90 text-sm md:text-base leading-relaxed">
               {desc}
             </p>

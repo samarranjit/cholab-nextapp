@@ -44,8 +44,7 @@ export default function AlumniPage() {
                 Our Distinguished Past Members
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto font-open">
-                Our members continue to excel in academia, industry, and
-                research institutions worldwide. Their achievements reflect the
+                Our members continue to excel in academia and industry. Their achievements reflect the
                 quality of research and mentorship in our lab.
               </p>
             </div>
