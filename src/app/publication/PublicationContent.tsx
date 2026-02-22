@@ -41,12 +41,12 @@ function Publication() {
         }
         return acc;
       },
-      {}
+      {},
     );
 
   // Sort years in descending order
   const sortedYears = Object.keys(groupedPublications ?? {}).sort(
-    (a, b) => Number(b) - Number(a)
+    (a, b) => Number(b) - Number(a),
   );
 
   // JSON-LD for all publications (review + published)
@@ -91,8 +91,9 @@ function Publication() {
               <div className="h-1 bg-tertiary mt-2 rounded-full"></div>
             </div>
 
-            <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-              Research papers and academic contributions by Dr. Eunsang Cho
+            <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+              Research papers and academic contributions by Dr. Eunsang Cho and
+              his team
             </p>
 
             {/* Social Links */}
@@ -294,7 +295,7 @@ function Publication() {
                                     imgUrl={item.imgUrl}
                                     doi={item.doi}
                                   />
-                                )
+                                ),
                               )
                             : ""}
                         </div>
