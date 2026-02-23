@@ -146,9 +146,11 @@ function Publication() {
                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 ">
                   Under Review/ In Revision
                 </h2>
-                {/* <p className="text-gray-500 text-sm">
-                  Papers currently under review
-                </p> */}
+                <p className="text-gray-500 text-sm">
+                  Underlined names indicate students or postdocs in the Cho Lab.
+                  &nbsp;
+                  {/* <br /> */}* Denotes corresponding author.
+                </p>
               </div>
             </div>
 
@@ -248,9 +250,11 @@ function Publication() {
                 <h2 className="text-2xl font-bold text-gray-900">
                   Published/Accepted
                 </h2>
-                {/* <p className="text-gray-500 text-sm">
-                  Peer-reviewed research publications
-                </p> */}
+                <p className="text-gray-500 text-sm">
+                  Underlined names indicate students or postdocs in the Cho Lab.
+                  &nbsp;
+                  {/* <br /> */}* Denotes corresponding author.
+                </p>
               </div>
             </div>
 
