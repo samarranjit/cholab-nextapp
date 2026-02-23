@@ -261,46 +261,65 @@ function Publication() {
             ) : (
               <>
                 {publishedPublications.length > 0 ? (
-                  <div className="space-y-12">
-                    {sortedYears.map((year, yearIndex) => (
-                      <div
-                        key={year}
-                        className={
-                          yearIndex > 0 ? "border-t border-gray-100 pt-20 " : ""
-                        }
-                      >
-                        <div className="flex items-center gap-4 mb-6 mt-5">
-                          <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-tertiary/80 to-tertiary rounded-xl  items-center justify-center hidden md:flex">
-                            <span className="text-white font-bold">{year}</span>
-                          </div>
-                          <h3 className="text-xl font-semibold text-gray-900">
-                            {year} Publications
-                          </h3>
-                          <div className="flex-1 h-px bg-gray-200"></div>
-                          <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
-                            {groupedPublications?.[year]?.length || 0} papers
-                          </span>
-                        </div>
+                  // <div className="space-y-12">
+                  //   {sortedYears.map((year, yearIndex) => (
+                  //     <div
+                  //       key={year}
+                  //       className={
+                  //         yearIndex > 0 ? "border-t border-gray-100 pt-20 " : ""
+                  //       }
+                  //     >
+                  //       <div className="flex items-center gap-4 mb-6 mt-5">
+                  //         <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-tertiary/80 to-tertiary rounded-xl  items-center justify-center hidden md:flex">
+                  //           <span className="text-white font-bold">{year}</span>
+                  //         </div>
+                  //         <h3 className="text-xl font-semibold text-gray-900">
+                  //           {year} Publications
+                  //         </h3>
+                  //         <div className="flex-1 h-px bg-gray-200"></div>
+                  //         <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
+                  //           {groupedPublications?.[year]?.length || 0} papers
+                  //         </span>
+                  //       </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                          {groupedPublications
-                            ? groupedPublications[year]?.map(
-                                (item: PublicationItem) => (
-                                  <PublicationCard
-                                    key={item._id}
-                                    sequence={item.publication_sequence}
-                                    title={item.title}
-                                    details={item.details}
-                                    link={item.link}
-                                    imgUrl={item.imgUrl}
-                                    doi={item.doi}
-                                  />
-                                ),
-                              )
-                            : ""}
-                        </div>
-                      </div>
-                    ))}
+                  //       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                  //         {groupedPublications
+                  //           ? groupedPublications[year]?.map(
+                  //               (item: PublicationItem) => (
+                  //                 <PublicationCard
+                  //                   key={item._id}
+                  //                   sequence={item.publication_sequence}
+                  //                   title={item.title}
+                  //                   details={item.details}
+                  //                   link={item.link}
+                  //                   imgUrl={item.imgUrl}
+                  //                   doi={item.doi}
+                  //                 />
+                  //               ),
+                  //             )
+                  //           : ""}
+                  //       </div>
+                  //     </div>
+                  //   ))}
+                  // </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-9">
+                    {sortedYears.map((year) =>
+                      groupedPublications?.[year]?.map(
+                        (item: PublicationItem) => (
+                          <PublicationCard
+                            key={item._id}
+                            sequence={item.publication_sequence}
+                            title={item.title}
+                            details={item.details}
+                            link={item.link}
+                            imgUrl={item.imgUrl}
+                            doi={item.doi}
+                            year={year}
+                          />
+                        ),
+                      ),
+                    )}
                   </div>
                 ) : (
                   <div className="text-center py-12">

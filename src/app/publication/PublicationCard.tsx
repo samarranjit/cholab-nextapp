@@ -12,6 +12,7 @@ interface PublicationCardProps {
   sequence?: number;
   doi?: string; // Add DOI as optional prop
   abstract?: string; // Add abstract as optional prop
+  year?: string;
 }
 
 interface WindowWithAltmetric extends Window {
@@ -25,6 +26,7 @@ export default function PublicationCard({
   imgUrl,
   doi,
   abstract,
+  year,
 }: PublicationCardProps) {
   const [showAbstract, setShowAbstract] = React.useState(false);
   const altmetricRef = useRef<HTMLDivElement>(null);
@@ -136,9 +138,15 @@ export default function PublicationCard({
           rel="noreferrer"
           className="block h-full"
         >
-          <div className="h-full bg-white border border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-tertiary/50 flex flex-col">
+          <div className="h-full bg-white border-3 border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-tertiary/50 flex flex-col">
             {/* Image container */}
+
             <div className="relative overflow-hidden bg-gray-100">
+              {year && (
+                <span className="absolute top-3 left-3 bg-tertiary/90 text-white text-md font-semibold px-2 py-0.5 rounded-full z-10">
+                  {year}
+                </span>
+              )}
               {doi && (
                 <div className="absolute top-2 right-2 flex items-center gap-2 opacity-90 hover:opacity-100 transition-opacity duration-300 z-2">
                   <div
@@ -231,7 +239,7 @@ export default function PublicationCard({
           className="block h-full cursor-pointer"
           onClick={() => setShowAbstract(!showAbstract)}
         >
-          <div className="h-full bg-white border border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-tertiary/50 flex flex-col">
+          <div className="h-full bg-white border-3 border-gray-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-tertiary/50 flex flex-col">
             {/* Image container */}
             <div className="relative overflow-hidden bg-gray-100">
               <div className="aspect-[16/10] relative">

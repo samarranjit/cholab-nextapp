@@ -81,6 +81,7 @@ export interface PublicationItem {
   journal?: string;
   abstract?: string;
   doi?: string; 
+  year?: string;
 }
 
 export interface ResearchProject {
