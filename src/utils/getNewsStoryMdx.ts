@@ -1,7 +1,10 @@
 import fs from "fs";
-import path from "path"
+import path from "path";
 
-const blogDir = path.join(process.cwd(), "/src/data/NewsStories");
+// Resolve the NewsStories directory relative to the project root.
+// IMPORTANT: do not start the second argument with "/" or path.join
+// will treat it as an absolute path like "/src/..." and fail in prod.
+const blogDir = path.join(process.cwd(), "src", "data", "NewsStories");
 const files = fs.readdirSync(blogDir);
 // console.log("files", files);
 
