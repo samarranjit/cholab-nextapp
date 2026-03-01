@@ -135,3 +135,9 @@ export interface OpportunityType {
   body:string;
   link:string;
 }
+
+export interface LinkedinPostType{
+  id: string;
+  url: string;
+  alt: string;
+}
