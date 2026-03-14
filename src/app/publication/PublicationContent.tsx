@@ -320,6 +320,7 @@ function Publication() {
                             imgUrl={item.imgUrl}
                             doi={item.doi}
                             year={year}
+                            abstract={item.abstract}
                           />
                         ),
                       ),
