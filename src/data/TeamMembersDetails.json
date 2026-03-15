@@ -138,7 +138,17 @@
     "ConferencePapers": [
       {
         "desc": "*Shank, K. I.*, Cho, E., & Hwang, S. S. (2026). Identifying PFAS Hotspots Influenced by Hydrologic and Climatic Stressors Using Remote Sensing and Geospatial Analysis. Poster presented at the *AMS Annual Meeting 2026*, Houston, TX, USA."
+      },
+      {
+        "desc": "*Shank, K. I.*, Basnet, H., Cho, E., & Hwang, S. S. (2026). Modeling PFAS Hotspots Under Hydrologic and Climatic Stressors Using Geospatial Analysis and Machine Learning. Poster presented at the *2026 DOE Environmental Management (DOE-EM) Symposium*, Texas State University, San Marcos, TX, USA.",
+        "link": "/news/DOE_EM_Symposium2026"
       }
+    ],
+    "awards": [
+      {
+        "desc": "*Gold Poster Award* (2026, DOE Environmental Management Symposium, Texas State University, San Marcos, TX, USA)"
+      }
+      
     ]
   },
   {
@@ -322,7 +332,17 @@
       {
         "desc" : "*Basnet, H.*, Cho, E., & Hwang, S. (2025). Hydrological Controls on PFOS Transport in the San Antonio River Watershed Using SWAT+. Poster presented at the *AGU Fall Meeting 2025*, New Orleans, LA, USA.",
         "link": "https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1937523"
+      },
+      {
+        "desc" : "*Basnet, H.*, Cho, E., & Hwang, S. S. (2026). Assessing Hydrological Controls on PFOS Transport in the San Antonio River Watershed Using SWAT+ Model. Poster presented at the * 2026 DOE Environmental Management (DOE-EM) Symposium*, Texas State University, San Marcos, TX, USA.",
+        "link": "/news/DOE_EM_Symposium2026"
       }
+    ],
+    "awards": [
+      {
+        "desc": "*Gold Poster Award* (2026, DOE Environmental Management Symposium, Texas State University, San Marcos, TX, USA)"
+      }
+      
     ]
   },
   {
